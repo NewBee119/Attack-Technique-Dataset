@@ -1,0 +1,3911 @@
+[{
+  "APT30": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
+      "2": "https://securelist.com/the-naikon-apt/69953/"
+    },
+    "Software": {
+      "S0031": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1090", "T1001", "T1089", "T1041", "T1083", "T1112", "T1104", "T1057", "T1012", "T1060", "T1023", "T1071", "T1082"]
+      },
+      "S0028": {
+        "Referrence": ["1"],
+        "techniques": ["T1060", "T1091", "T1023"]
+      },
+      "S0036": {
+        "Referrence": ["1"],
+        "techniques": ["T1022", "T1005", "T1025", "T1074", "T1083", "T1060"]
+      },
+      "S0035": {
+        "Referrence": ["1"],
+        "techniques": ["T1022", "T1074", "T1052", "T1083", "T1060", "T1023"]
+      },
+      "S0034": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1094", "T1041", "T1008", "T1083", "T1057", "T1060", "T1071", "T1032", "T1095"]
+      }
+    }
+  }
+}, {
+  "APT12": {
+    "Software": {
+      "S0015": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1001"]
+      },
+      "S0003": {
+        "Referrence": ["2"],
+        "techniques": ["T1043", "T1071", "T1032"]
+      }
+    },
+    "Reference": {
+      "1": "http://www.crowdstrike.com/blog/whois-numbered-panda/",
+      "3": "https://www.fireeye.com/blog/threat-research/2013/08/survival-of-the-fittest-new-york-times-attackers-evolve-quickly.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html"
+    },
+    "Techniques Used": {}
+  }
+}, {
+  "APT1": {
+    "Techniques Used": {
+      "T1057": ["1"],
+      "T1135": ["1"],
+      "T1087": ["1"],
+      "T1075": ["1"],
+      "T1114": ["1"],
+      "T1003": ["1"],
+      "T1346": ["1"],
+      "T1059": ["1"],
+      "T1007": ["1"],
+      "T1005": ["1"],
+      "T1036": ["1", "2"],
+      "T1064": ["1"],
+      "T1002": ["1"],
+      "T1076": ["3"],
+      "T1330": ["1"],
+      "T1326": ["1"],
+      "T1333": ["1"],
+      "T1016": ["1"],
+      "T1334": ["1"],
+      "T1049": ["1"],
+      "T1119": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf",
+      "3": "https://www.fireeye.com/blog/threat-research/2014/05/the-pla-and-the-800am-500pm-work-day-fireeye-confirms-dojs-findings-on-apt1-intrusion-activity.html",
+      "2": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report-appendix.zip",
+      "5": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf",
+      "4": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf"
+    },
+    "Software": {
+      "S0006": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0017": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1094", "T1008", "T1056", "T1057", "T1105", "T1113", "T1032", "T1082", "T1033"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0012": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      },
+      "S0025": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1102"]
+      },
+      "S0026": {
+        "Referrence": ["1"],
+        "techniques": ["T1102"]
+      },
+      "S0008": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0121": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0119": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0123": {
+        "Referrence": ["2"],
+        "techniques": ["T1035"]
+      },
+      "S0122": {
+        "Referrence": ["1"],
+        "techniques": ["T1075"]
+      },
+      "S0345": {
+        "Referrence": ["2", "5"],
+        "techniques": ["T1059", "T1094", "T1083", "T1107", "T1036", "T1050", "T1027", "T1057", "T1060", "T1105", "T1071"]
+      },
+      "S0057": {
+        "Referrence": ["1"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0109": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1038", "T1105"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0100": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      }
+    }
+  }
+}, {
+  "APT19": {
+    "Software": {
+      "S0154": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0363": {
+        "Referrence": ["6"],
+        "techniques": ["T1134", "T1015", "T1087", "T1217", "T1088", "T1115", "T1059", "T1043", "T1136", "T1003", "T1081", "T1002", "T1175", "T1038", "T1482", "T1114", "T1106", "T1048", "T1041", "T1068", "T1210", "T1083", "T1484", "T1179", "T1056", "T1208", "T1171", "T1031", "T1046", "T1135", "T1040", "T1027", "T1075", "T1097", "T1034", "T1086", "T1145", "T1057", "T1055", "T1060", "T1105", "T1021", "T1053", "T1113", "T1064", "T1063", "T1101", "T1035", "T1023", "T1178", "T1071", "T1032", "T1082", "T1016", "T1049", "T1099", "T1127", "T1125", "T1102", "T1047"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html",
+      "3": "https://www.fireeye.com/current-threats/apt-groups.html#apt19",
+      "2": "https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts/",
+      "5": "https://www.darkreading.com/attacks-breaches/chinese-hacking-group-codoso-team-uses-forbescom-as-watering-hole-/d/d-id/1319059",
+      "4": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/",
+      "6": "https://s3.eu-west-1.amazonaws.com/ncsc-content/files/Joint%20report%20on%20publicly%20available%20hacking%20tools%20%28NCSC%29.pdf"
+    },
+    "Techniques Used": {
+      "T1073": ["4"],
+      "T1082": ["1", "4"],
+      "T1071": ["1", "4"],
+      "T1132": ["4"],
+      "T1043": ["1"],
+      "T1085": ["1"],
+      "T1064": ["1"],
+      "T1117": ["1"],
+      "T1060": ["4"],
+      "T1112": ["4"],
+      "T1016": ["4"],
+      "T1193": ["1"],
+      "T1189": ["4"],
+      "T1033": ["4"],
+      "T1031": ["4"],
+      "T1140": ["4"],
+      "T1086": ["1"],
+      "T1204": ["1"],
+      "T1027": ["1"]
+    }
+  }
+}, {
+  "APT16": {
+    "Techniques Used": {
+      "T1334": ["1"],
+      "T1272": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html"
+    },
+    "Software": {
+      "S0064": {
+        "Referrence": ["1"],
+        "techniques": ["T1043", "T1083", "T1057", "T1071"]
+      }
+    }
+  }
+}, {
+  "APT18": {
+    "Software": {
+      "S0106": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1107", "T1105", "T1082"]
+      },
+      "S0070": {
+        "Referrence": ["4"],
+        "techniques": ["T1059", "T1043", "T1038", "T1073", "T1083", "T1107", "T1056", "T1036", "T1027", "T1060", "T1105", "T1071"]
+      },
+      "S0124": {
+        "Referrence": ["6"],
+        "techniques": ["T1059", "T1132", "T1083", "T1027", "T1060", "T1105", "T1071", "T1082", "T1016"]
+      },
+      "S0071": {
+        "Referrence": ["1", "5"],
+        "techniques": ["T1059", "T1050"]
+      },
+      "S0032": {
+        "Referrence": ["4"],
+        "techniques": ["T1059", "T1043", "T1073", "T1107", "T1070", "T1056", "T1050", "T1057", "T1060", "T1105", "T1085", "T1113", "T1032"]
+      }
+    },
+    "Reference": {
+      "1": "http://www.secureworks.com/resources/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems/",
+      "3": "https://www.anomali.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
+      "2": "https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+      "5": "https://www.threatstream.com/blog/evasive-maneuvers-the-wekby-group-attempts-to-evade-analysis-via-custom-rop",
+      "4": "https://www.rsaconference.com/writable/presentations/file_upload/hta-f02-detecting-and-responding-to-advanced-threats-within-exchange-environments.pdf",
+      "6": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/"
+    },
+    "Techniques Used": {
+      "T1082": ["2"],
+      "T1083": ["2"],
+      "T1071": ["2"],
+      "T1107": ["1"],
+      "T1043": ["2", "3"],
+      "T1053": ["1"],
+      "T1060": ["3", "2"],
+      "T1078": ["4"],
+      "T1059": ["2", "3"],
+      "T1105": ["2"],
+      "T1027": ["2"],
+      "T1133": ["4"]
+    }
+  }
+}, {
+  "APT17": {
+    "Techniques Used": {
+      "T1331": ["1"],
+      "T1341": ["1"],
+      "T1342": ["1"]
+    },
+    "Reference": {
+      "1": "https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf"
+    },
+    "Software": {
+      "S0069": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1107", "T1104", "T1057", "T1102"]
+      }
+    }
+  }
+}, {
+  "APT29": {
+    "Software": {
+      "S0048": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1005", "T1083", "T1071", "T1082"]
+      },
+      "S0049": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1083", "T1057", "T1071", "T1016", "T1007"]
+      },
+      "S0037": {
+        "Referrence": ["1"],
+        "techniques": ["T1024", "T1001", "T1048", "T1086", "T1071", "T1102"]
+      },
+      "S0195": {
+        "Referrence": ["4"],
+        "techniques": ["T1116", "T1485", "T1107"]
+      },
+      "S0051": {
+        "Referrence": ["1"],
+        "techniques": ["T1008", "T1105", "T1071", "T1102"]
+      },
+      "S0050": {
+        "Referrence": ["1"],
+        "techniques": ["T1020", "T1115", "T1003", "T1024", "T1005", "T1039", "T1025", "T1114", "T1048", "T1068", "T1083", "T1056", "T1050", "T1053", "T1113", "T1071"]
+      },
+      "S0053": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1002", "T1132", "T1114", "T1107", "T1097", "T1086", "T1060", "T1105", "T1064", "T1023", "T1045", "T1071", "T1032", "T1078", "T1084"]
+      },
+      "S0175": {
+        "Referrence": ["4"],
+        "techniques": ["T1172"]
+      },
+      "S0046": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1003", "T1036", "T1050", "T1027", "T1060", "T1085", "T1053", "T1063", "T1071", "T1082", "T1497", "T1102"]
+      },
+      "S0054": {
+        "Referrence": ["1"],
+        "techniques": ["T1105", "T1071", "T1102"]
+      },
+      "S0154": {
+        "Referrence": ["6"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0052": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1071", "T1102"]
+      },
+      "S0150": {
+        "Referrence": ["9"],
+        "techniques": ["T1030", "T1483", "T1027", "T1086", "T1105", "T1032", "T1099", "T1084"]
+      },
+      "S0183": {
+        "Referrence": ["4"],
+        "techniques": ["T1188", "T1079"]
+      },
+      "S0139": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1043", "T1485", "T1083", "T1107", "T1096", "T1027", "T1057", "T1060", "T1105", "T1085", "T1082", "T1016", "T1033", "T1124"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "10": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
+      "1": "https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf",
+      "3": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+      "2": "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+      "5": "https://www.fireeye.com/blog/threat-research/2017/03/apt29_domain_frontin.html",
+      "4": "http://www.slideshare.net/MatthewDunwoody1/no-easy-breach-derby-con-2016",
+      "7": "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory",
+      "6": "https://www.fireeye.com/blog/threat-research/2018/11/not-so-cozy-an-uncomfortable-examination-of-a-suspected-apt29-phishing-campaign.html",
+      "9": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+      "8": "https://www.microsoft.com/security/blog/2018/12/03/analysis-of-cyberattack-on-u-s-think-tanks-non-profits-public-sector-by-unidentified-attackers/"
+    },
+    "Techniques Used": {
+      "T1095": ["6"],
+      "T1097": ["4"],
+      "T1193": ["1", "6"],
+      "T1203": ["1"],
+      "T1204": ["1"],
+      "T1070": ["4"],
+      "T1192": ["4"],
+      "T1053": ["4"],
+      "T1172": ["4"],
+      "T1015": ["4", "5"],
+      "T1086": ["7", "4", "6"],
+      "T1084": ["4"],
+      "T1085": ["6"],
+      "T1088": ["4"],
+      "T1188": ["4"],
+      "T1027": ["6"],
+      "T1047": ["4"],
+      "T1045": ["4"],
+      "T1043": ["6"],
+      "T1064": ["7", "4"],
+      "T1060": ["4"],
+      "T1023": ["6"]
+    }
+  }
+}, {
+  "APT3": {
+    "Techniques Used": {
+      "T1090": ["3"],
+      "T1095": ["3"],
+      "T1098": ["6"],
+      "T1104": ["3"],
+      "T1033": ["3"],
+      "T1005": ["6"],
+      "T1136": ["6"],
+      "T1018": ["4", "8"],
+      "T1057": ["8", "7"],
+      "T1056": ["4"],
+      "T1077": ["4"],
+      "T1076": ["6"],
+      "T1053": ["3"],
+      "T1074": ["6"],
+      "T1078": ["4"],
+      "T1059": ["3", "4"],
+      "T1016": ["4", "7"],
+      "T1110": ["5"],
+      "T1082": ["4", "7"],
+      "T1083": ["8", "7"],
+      "T1081": ["4"],
+      "T1086": ["3"],
+      "T1087": ["4"],
+      "T1085": ["8"],
+      "T1027": ["4"],
+      "T1050": ["3"],
+      "T1045": ["5"],
+      "T1107": ["8"],
+      "T1069": ["4"],
+      "T1105": ["8"],
+      "T1041": ["8"],
+      "T1002": ["6"],
+      "T1065": ["3"],
+      "T1066": ["5"],
+      "T1108": ["5"],
+      "T1060": ["3"],
+      "T1061": ["1"],
+      "T1049": ["4", "8", "7"],
+      "T1064": ["3"],
+      "T1073": ["8", "9"],
+      "T1003": ["4"],
+      "T1043": ["7"],
+      "T1015": ["6"]
+    },
+    "Reference": {
+      "11": "http://pwc.blogs.com/cyber_security_updates/2015/07/pirpi-scanbox.html",
+      "10": "https://twitter.com/cglyer/status/985311489782374400",
+      "1": "https://www.fireeye.com/blog/threat-research/2015/06/operation-clandestine-wolf-adobe-flash-zero-day.html",
+      "3": "https://www.fireeye.com/blog/threat-research/2014/11/operation_doubletap.html",
+      "2": "https://www.recordedfuture.com/chinese-mss-behind-apt3/",
+      "5": "https://attack.mitre.org/docs/APT3_Adversary_Emulation_Plan.pdf",
+      "4": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+      "7": "https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf",
+      "6": "http://carnal0wnage.attackresearch.com/2012/09/more-on-aptsim.html",
+      "9": "https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html",
+      "8": "https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html"
+    },
+    "Software": {
+      "S0013": {
+        "Referrence": ["9"],
+        "techniques": ["T1059", "T1043", "T1094", "T1140", "T1073", "T1106", "T1083", "T1056", "T1036", "T1031", "T1112", "T1026", "T1135", "T1050", "T1057", "T1012", "T1060", "T1105", "T1113", "T1071", "T1095", "T1049", "T1127", "T1497", "T1102"]
+      },
+      "S0165": {
+        "Referrence": ["4"],
+        "techniques": ["T1087", "T1135", "T1069", "T1012", "T1018", "T1082", "T1016", "T1049"]
+      },
+      "S0166": {
+        "Referrence": ["4"],
+        "techniques": ["T1105", "T1053", "T1035"]
+      },
+      "S0063": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1083", "T1027", "T1057", "T1018", "T1049"]
+      },
+      "S0349": {
+        "Referrence": ["4"],
+        "techniques": ["T1003", "T1081"]
+      },
+      "S0111": {
+        "Referrence": ["3"],
+        "techniques": ["T1053"]
+      }
+    }
+  }
+}, {
+  "admin@338": {
+    "Software": {
+      "S0096": {
+        "Referrence": ["1"],
+        "techniques": ["T1082"]
+      },
+      "S0012": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      },
+      "S0042": {
+        "Referrence": ["1"],
+        "techniques": ["T1043", "T1105", "T1071", "T1102"]
+      },
+      "S0043": {
+        "Referrence": ["1"],
+        "techniques": ["T1071", "T1095", "T1082"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0104": {
+        "Referrence": ["1"],
+        "techniques": ["T1049"]
+      },
+      "S0100": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html"
+    },
+    "Techniques Used": {
+      "T1082": ["1"],
+      "T1083": ["1"],
+      "T1069": ["1"],
+      "T1059": ["1"],
+      "T1007": ["1"],
+      "T1016": ["1"],
+      "T1036": ["1"],
+      "T1049": ["1"],
+      "T1087": ["1"]
+    }
+  }
+}, {
+  "APT28": {
+    "Techniques Used": {
+      "T1091": ["1"],
+      "T1090": ["4", "1", "1"],
+      "T1092": ["1"],
+      "T1192": ["1"],
+      "T1193": ["1", "8", "9", "1", "2"],
+      "T1099": ["3"],
+      "T1027": ["1", "1", "9", "2"],
+      "T1199": ["1"],
+      "T1037": ["2"],
+      "T1221": ["2"],
+      "T1328": ["4"],
+      "T1158": ["2", "2"],
+      "T1203": ["2"],
+      "T1204": ["1"],
+      "T1137": ["2"],
+      "T1057": ["2"],
+      "T1070": ["3", "1"],
+      "T1119": ["1"],
+      "T1075": ["1"],
+      "T1074": ["1"],
+      "T1114": ["1"],
+      "T1173": ["2", "2", "9"],
+      "T1346": ["4"],
+      "T1059": ["9"],
+      "T1014": ["1"],
+      "T1113": ["1", "1"],
+      "T1078": ["2", "1"],
+      "T1083": ["1", "1"],
+      "T1086": ["9"],
+      "T1085": ["3", "1", "9", "2"],
+      "T1134": ["1"],
+      "T1056": ["1", "1"],
+      "T1071": ["4"],
+      "T1140": ["1", "9"],
+      "T1068": ["1", "1", "2"],
+      "T1213": ["1"],
+      "T1211": ["1", "1"],
+      "T1210": ["4", "2", "2"],
+      "T1107": ["1"],
+      "T1120": ["1"],
+      "T1040": ["4", "2"],
+      "T1122": ["1"],
+      "T1002": ["1"],
+      "T1003": ["1", "1"],
+      "T1067": ["1"],
+      "T1005": ["1", "1"],
+      "T1105": ["1", "2"],
+      "T1001": ["4"],
+      "T1064": ["2", "2"],
+      "T1025": ["1"]
+    },
+    "Reference": {
+      "24": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010",
+      "25": "https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html",
+      "26": "https://pan-unit42.github.io/playbook_viewer/",
+      "27": "https://researchcenter.paloaltonetworks.com/2016/07/unit42-technical-walkthrough-office-test-persistence-method-used-in-recent-sofacy-attacks/",
+      "20": "https://securingtomorrow.mcafee.com/mcafee-labs/apt28-threat-group-adopts-dde-technique-nyc-attack-theme-in-latest-campaign/",
+      "21": "http://securityaffairs.co/wordpress/65318/hacking/dde-attack-apt28.html",
+      "22": "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+      "23": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html",
+      "28": "https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/",
+      "29": "https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf",
+      "1": "https://www.justice.gov/file/1080281/download",
+      "3": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+      "2": "https://arstechnica.com/information-technology/2018/07/from-bitly-to-x-agent-how-gru-hackers-targeted-the-2016-presidential-election/",
+      "5": "https://www.secureworks.com/research/threat-group-4127-targets-hillary-clinton-presidential-campaign",
+      "4": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+      "7": "https://www.us-cert.gov/sites/default/files/publications/JAR_16-20296A_GRIZZLY%20STEPPE-2016-1229.pdf",
+      "6": "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf",
+      "9": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/",
+      "8": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-sofacy-uses-dealerschoice-target-european-government-agency/",
+      "11": "https://www.fireeye.com/blog/threat-research/2015/04/probable_apt28_useo.html",
+      "10": "https://www.symantec.com/blogs/election-security/apt28-espionage-military-government",
+      "13": "http://download.microsoft.com/download/4/4/C/44CDEF0E-7924-4787-A56A-16261691ACE3/Microsoft_Security_Intelligence_Report_Volume_19_English.pdf",
+      "12": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
+      "15": "https://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+      "14": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
+      "17": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/2015.11.04_Evolving_Threats/cct-w08_evolving-threats-dissection-of-a-cyber-espionage-attack.pdf",
+      "16": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
+      "19": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-sofacy-attacks-multiple-government-entities/",
+      "18": "https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/",
+      "31": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+      "30": "https://www.accenture.com/t20181129T203820Z__w__/us-en/_acnmedia/PDF-90/Accenture-snakemackerel-delivers-zekapab-malware.pdf#zoom=50",
+      "34": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
+      "33": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
+      "32": "https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/"
+    },
+    "Software": {
+      "S0191": {
+        "Referrence": ["1"],
+        "techniques": ["T1035"]
+      },
+      "S0193": {
+        "Referrence": ["1"],
+        "techniques": ["T1005", "T1083", "T1202"]
+      },
+      "S0002": {
+        "Referrence": ["3"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0174": {
+        "Referrence": ["2"],
+        "techniques": ["T1171", "T1040"]
+      },
+      "S0135": {
+        "Referrence": ["1"],
+        "techniques": ["T1055", "T1014"]
+      },
+      "S0161": {
+        "Referrence": ["3", "1"],
+        "techniques": ["T1081", "T1106", "T1083", "T1107", "T1056", "T1120", "T1057", "T1113", "T1071", "T1082", "T1033"]
+      },
+      "S0160": {
+        "Referrence": ["1"],
+        "techniques": ["T1140", "T1130", "T1105"]
+      },
+      "S0044": {
+        "Referrence": ["6", "3", "2"],
+        "techniques": ["T1115", "T1122", "T1132", "T1068", "T1008", "T1107", "T1037", "T1050", "T1027", "T1057", "T1055", "T1060", "T1105", "T1085", "T1053", "T1113", "T1064", "T1071", "T1082", "T1016"]
+      },
+      "S0162": {
+        "Referrence": ["3", "3"],
+        "techniques": ["T1024", "T1107", "T1158", "T1159", "T1057", "T1071", "T1033"]
+      },
+      "S0243": {
+        "Referrence": ["8"],
+        "techniques": ["T1203", "T1064", "T1071"]
+      },
+      "S0351": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1041", "T1083", "T1057", "T1105", "T1113", "T1071", "T1082", "T1033", "T1124", "T1065", "T1004"]
+      },
+      "S0136": {
+        "Referrence": ["1"],
+        "techniques": ["T1119", "T1020", "T1092", "T1025", "T1074", "T1052", "T1083", "T1107", "T1036", "T1027", "T1120", "T1060", "T1091", "T1099"]
+      },
+      "S0137": {
+        "Referrence": ["4"],
+        "techniques": ["T1009", "T1024", "T1132", "T1027", "T1060", "T1105", "T1085", "T1071", "T1082"]
+      },
+      "S0045": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1059", "T1043", "T1122", "T1002", "T1132", "T1022", "T1074", "T1106", "T1041", "T1083", "T1107", "T1056", "T1112", "T1027", "T1120", "T1057", "T1012", "T1060", "T1085", "T1029", "T1071", "T1032", "T1082"]
+      },
+      "S0250": {
+        "Referrence": ["9"],
+        "techniques": ["T1088", "T1115", "T1059", "T1003", "T1005", "T1170", "T1046", "T1135", "T1055", "T1117", "T1076", "T1105", "T1085", "T1064", "T1035", "T1032", "T1016", "T1033", "T1047"]
+      },
+      "S0138": {
+        "Referrence": ["4"],
+        "techniques": ["T1003", "T1036", "T1027", "T1071"]
+      },
+      "S0023": {
+        "Referrence": ["4", "3", "2"],
+        "techniques": ["T1059", "T1092", "T1090", "T1483", "T1008", "T1083", "T1056", "T1112", "T1012", "T1105", "T1091", "T1113", "T1063", "T1071", "T1032", "T1497"]
+      },
+      "S0314": {
+        "Referrence": [],
+        "techniques": ["T1430", "T1444"]
+      },
+      "S0251": {
+        "Referrence": ["9", "3", "2", "2"],
+        "techniques": ["T1119", "T1094", "T1022", "T1074", "T1140", "T1083", "T1107", "T1179", "T1037", "T1135", "T1120", "T1057", "T1060", "T1105", "T1113", "T1045", "T1071", "T1032", "T1082", "T1033", "T1124", "T1065", "T1047"]
+      },
+      "S0117": {
+        "Referrence": ["1", "1"],
+        "techniques": ["T1009", "T1059", "T1090", "T1081", "T1008", "T1046", "T1027", "T1105", "T1032"]
+      }
+    }
+  }
+}, {
+  "Winnti Group": {
+    "Software": {
+      "S0141": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1036", "T1050", "T1085"]
+      }
+    },
+    "Reference": {
+      "1": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+      "3": "http://www.novetta.com/wp-content/uploads/2015/04/novetta_winntianalysis.pdf",
+      "2": "https://securelist.com/games-are-over/70991/",
+      "5": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
+      "4": "https://401trg.com/burning-umbrella/"
+    },
+    "Techniques Used": {
+      "T1116": ["1"],
+      "T1057": ["1"],
+      "T1014": ["1"]
+    }
+  }
+}, {
+  "TEMP.Veles": {
+    "Techniques Used": {
+      "T1100": ["1"],
+      "T1107": ["1"],
+      "T1133": ["1"],
+      "T1053": ["1"],
+      "T1074": ["1"],
+      "T1099": ["1"],
+      "T1003": ["1"],
+      "T1066": ["2"],
+      "T1078": ["1"],
+      "T1043": ["1"],
+      "T1021": ["1"],
+      "T1311": ["1"],
+      "T1329": ["1"],
+      "T1065": ["1"],
+      "T1036": ["1"],
+      "T1086": ["2", "1"],
+      "T1183": ["1"],
+      "T1076": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html",
+      "3": "https://www.fireeye.com/content/dam/fireeye-www/blog/files/TRITON_Appendix_C.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html ",
+      "5": "https://pylos.co/2019/04/12/a-xenotime-to-remember-veles-in-the-wild/",
+      "4": "https://dragos.com/resource/xenotime/",
+      "6": "https://www.fireeye.com/blog/threat-research/2018/10/triton-attribution-russian-government-owned-lab-most-likely-built-tools.html "
+    },
+    "Software": {
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1", "4"],
+        "techniques": ["T1035", "T1077"]
+      }
+    }
+  }
+}, {
+  "Thrip": {
+    "Software": {
+      "S0261": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1115", "T1074", "T1056", "T1036", "T1112", "T1050", "T1113", "T1016"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets"
+    },
+    "Techniques Used": {
+      "T1086": ["1"],
+      "T1219": ["1"],
+      "T1048": ["1"]
+    }
+  }
+}, {
+  "Threat Group-1314": {
+    "Techniques Used": {
+      "T1072": ["1"],
+      "T1078": ["1"],
+      "T1059": ["1"],
+      "T1077": ["1"]
+    },
+    "Reference": {
+      "1": "http://www.secureworks.com/resources/blog/living-off-the-land/"
+    },
+    "Software": {
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      }
+    }
+  }
+}, {
+  "Threat Group-3390": {
+    "Software": {
+      "S0005": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0002": {
+        "Referrence": ["2", "4"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0013": {
+        "Referrence": ["1", "2", "4"],
+        "techniques": ["T1059", "T1043", "T1094", "T1140", "T1073", "T1106", "T1083", "T1056", "T1036", "T1031", "T1112", "T1026", "T1135", "T1050", "T1057", "T1012", "T1060", "T1105", "T1113", "T1071", "T1095", "T1049", "T1127", "T1497", "T1102"]
+      },
+      "S0039": {
+        "Referrence": ["2"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0020": {
+        "Referrence": ["1", "2", "4"],
+        "techniques": ["T1110", "T1059", "T1005", "T1083", "T1046", "T1105", "T1064", "T1045", "T1071", "T1099", "T1100"]
+      },
+      "S0008": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0073": {
+        "Referrence": ["1"],
+        "techniques": ["T1100"]
+      },
+      "S0072": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1022", "T1073", "T1083", "T1056", "T1036", "T1071", "T1099", "T1100"]
+      },
+      "S0070": {
+        "Referrence": ["1", "2", "4"],
+        "techniques": ["T1059", "T1043", "T1038", "T1073", "T1083", "T1107", "T1056", "T1036", "T1027", "T1060", "T1105", "T1071"]
+      },
+      "S0100": {
+        "Referrence": ["2"],
+        "techniques": ["T1016"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage",
+      "3": "https://securelist.com/luckymouse-hits-national-data-center/86083/",
+      "2": "https://www.secureworks.com/research/bronze-union",
+      "5": "https://thehackernews.com/2018/06/chinese-watering-hole-attack.html",
+      "4": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/",
+      "6": "http://arstechnica.com/security/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes/"
+    },
+    "Techniques Used": {
+      "T1078": ["1"],
+      "T1027": ["4", "3"],
+      "T1030": ["1"],
+      "T1049": ["2"],
+      "T1038": ["4"],
+      "T1073": ["1", "2", "3"],
+      "T1018": ["4"],
+      "T1071": ["3"],
+      "T1056": ["1", "5", "3"],
+      "T1133": ["1"],
+      "T1053": ["1"],
+      "T1074": ["2"],
+      "T1012": ["4"],
+      "T1059": ["2"],
+      "T1112": ["4"],
+      "T1016": ["1"],
+      "T1055": ["4", "3"],
+      "T1086": ["2"],
+      "T1087": ["2"],
+      "T1088": ["4"],
+      "T1089": ["2"],
+      "T1189": ["1", "3"],
+      "T1140": ["3"],
+      "T1028": ["2"],
+      "T1107": ["2"],
+      "T1050": ["4"],
+      "T1046": ["1"],
+      "T1047": ["4"],
+      "T1126": ["2"],
+      "T1068": ["2"],
+      "T1119": ["2"],
+      "T1105": ["1"],
+      "T1002": ["2"],
+      "T1003": ["1", "2"],
+      "T1108": ["2"],
+      "T1060": ["4"],
+      "T1022": ["2"],
+      "T1005": ["2"],
+      "T1043": ["1"]
+    }
+  }
+}, {
+  "Taidoor": {
+    "Techniques Used": {
+      "T1032": ["1"]
+    },
+    "Reference": {
+      "1": "http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_taidoor_campaign.pdf"
+    },
+    "Software": {}
+  }
+}, {
+  "Turla": {
+    "Software": {
+      "S0096": {
+        "Referrence": ["1"],
+        "techniques": ["T1082"]
+      },
+      "S0002": {
+        "Referrence": ["5"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0168": {
+        "Referrence": ["2"],
+        "techniques": ["T1116", "T1090", "T1024", "T1107", "T1096", "T1027", "T1055", "T1060", "T1105", "T1053", "T1180", "T1023", "T1071", "T1033", "T1099", "T1004"]
+      },
+      "S0091": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1116", "T1002", "T1022", "T1083", "T1107", "T1027", "T1069", "T1057", "T1012", "T1018", "T1063", "T1071", "T1032", "T1082", "T1016", "T1049", "T1033", "T1007", "T1124"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0265": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1010", "T1059", "T1485", "T1132", "T1005", "T1074", "T1008", "T1083", "T1107", "T1050", "T1027", "T1069", "T1057", "T1055", "T1060", "T1105", "T1029", "T1113", "T1023", "T1071", "T1082", "T1016", "T1033", "T1125", "T1102", "T1047"]
+      },
+      "S0057": {
+        "Referrence": ["1"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0335": {
+        "Referrence": ["7"],
+        "techniques": ["T1087", "T1043", "T1074", "T1140", "T1048", "T1050", "T1027", "T1057", "T1055", "T1012", "T1018", "T1053", "T1095", "T1016", "T1049", "T1124"]
+      },
+      "S0075": {
+        "Referrence": ["1"],
+        "techniques": ["T1214", "T1112", "T1012"]
+      },
+      "S0099": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      },
+      "S0022": {
+        "Referrence": ["1"],
+        "techniques": ["T1014", "T1045"]
+      },
+      "S0126": {
+        "Referrence": ["8"],
+        "techniques": ["T1122", "T1071"]
+      },
+      "S0256": {
+        "Referrence": ["4", "5"],
+        "techniques": ["T1059", "T1122", "T1024", "T1106", "T1107", "T1112", "T1027", "T1086", "T1057", "T1060", "T1105", "T1085", "T1063", "T1016", "T1033", "T1047"]
+      },
+      "S0104": {
+        "Referrence": ["1"],
+        "techniques": ["T1049"]
+      },
+      "S0363": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1015", "T1087", "T1217", "T1088", "T1115", "T1059", "T1043", "T1136", "T1003", "T1081", "T1002", "T1175", "T1038", "T1482", "T1114", "T1106", "T1048", "T1041", "T1068", "T1210", "T1083", "T1484", "T1179", "T1056", "T1208", "T1171", "T1031", "T1046", "T1135", "T1040", "T1027", "T1075", "T1097", "T1034", "T1086", "T1145", "T1057", "T1055", "T1060", "T1105", "T1021", "T1053", "T1113", "T1064", "T1063", "T1101", "T1035", "T1023", "T1178", "T1071", "T1032", "T1082", "T1016", "T1049", "T1099", "T1127", "T1125", "T1102", "T1047"]
+      },
+      "S0102": {
+        "Referrence": ["1"],
+        "techniques": ["T1016", "T1049"]
+      }
+    },
+    "Reference": {
+      "11": "https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+      "10": "https://www.welivesecurity.com/wp-content/uploads/2018/08/Eset-Turla-Outlook-Backdoor.pdf",
+      "1": "https://securelist.com/the-epic-turla-operation/65545/",
+      "3": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-march-venomous-bear/",
+      "2": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
+      "5": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
+      "4": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
+      "7": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/",
+      "6": "https://github.com/rapid7/meterpreter/tree/master/source/extensions/priv/server/elevate",
+      "9": "https://securelist.com/introducing-whitebear/81638/",
+      "8": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf"
+    },
+    "Techniques Used": {
+      "T1192": ["4"],
+      "T1193": ["7"],
+      "T1204": ["4"],
+      "T1055": ["5", "6"],
+      "T1018": ["1"],
+      "T1057": ["1"],
+      "T1077": ["1"],
+      "T1012": ["1"],
+      "T1110": ["1"],
+      "T1016": ["1"],
+      "T1082": ["1"],
+      "T1083": ["1"],
+      "T1086": ["5"],
+      "T1102": ["4", "5"],
+      "T1071": ["4", "5"],
+      "T1124": ["1"],
+      "T1105": ["5"],
+      "T1066": ["2"],
+      "T1060": ["4", "5"],
+      "T1007": ["1"],
+      "T1004": ["4"],
+      "T1049": ["1"]
+    }
+  }
+}, {
+  "Tropic Trooper": {
+    "Techniques Used": {
+      "T1055": ["1"],
+      "T1057": ["2"],
+      "T1197": ["1"],
+      "T1043": ["1"],
+      "T1193": ["2"],
+      "T1027": ["1"],
+      "T1004": ["2"],
+      "T1063": ["2"],
+      "T1221": ["2"],
+      "T1032": ["1"],
+      "T1140": ["2"],
+      "T1158": ["1"],
+      "T1203": ["1", "2"]
+    },
+    "Reference": {
+      "1": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/",
+      "2": "https://researchcenter.paloaltonetworks.com/2016/11/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/"
+    },
+    "Software": {
+      "S0012": {
+        "Referrence": ["2"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      }
+    }
+  }
+}, {
+  "TA459": {
+    "Software": {
+      "S0033": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1056"]
+      },
+      "S0032": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1073", "T1107", "T1070", "T1056", "T1050", "T1057", "T1060", "T1105", "T1085", "T1113", "T1032"]
+      },
+      "S0230": {
+        "Referrence": ["1"],
+        "techniques": ["T1009", "T1088", "T1001", "T1140", "T1073", "T1050", "T1027", "T1105", "T1045", "T1071", "T1032", "T1082", "T1016"]
+      },
+      "S0013": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1094", "T1140", "T1073", "T1106", "T1083", "T1056", "T1036", "T1031", "T1112", "T1026", "T1135", "T1050", "T1057", "T1012", "T1060", "T1105", "T1113", "T1071", "T1095", "T1049", "T1127", "T1497", "T1102"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts"
+    },
+    "Techniques Used": {
+      "T1064": ["1"],
+      "T1204": ["1"],
+      "T1203": ["1"],
+      "T1086": ["1"],
+      "T1193": ["1"]
+    }
+  }
+}, {
+  "Suckfly": {
+    "Techniques Used": {
+      "T1046": ["2"],
+      "T1003": ["2"],
+      "T1116": ["1"],
+      "T1078": ["2"],
+      "T1059": ["2"]
+    },
+    "Reference": {
+      "1": "http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates",
+      "2": "http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks"
+    },
+    "Software": {
+      "S0118": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1043", "T1036", "T1050", "T1105", "T1032"]
+      }
+    }
+  }
+}, {
+  "Stolen Pencil": {
+    "Software": {
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "1": "https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/"
+    },
+    "Techniques Used": {
+      "T1081": ["1"],
+      "T1076": ["1"],
+      "T1040": ["1"],
+      "T1003": ["1"],
+      "T1108": ["1"],
+      "T1176": ["1"],
+      "T1192": ["1"],
+      "T1056": ["1"],
+      "T1078": ["1"]
+    }
+  }
+}, {
+  "Stealth Falcon": {
+    "Techniques Used": {
+      "T1082": ["1"],
+      "T1047": ["1"],
+      "T1057": ["1"],
+      "T1086": ["1"],
+      "T1053": ["1"],
+      "T1041": ["1"],
+      "T1064": ["1"],
+      "T1003": ["1"],
+      "T1012": ["1"],
+      "T1071": ["1"],
+      "T1005": ["1"],
+      "T1033": ["1"],
+      "T1032": ["1"],
+      "T1016": ["1"]
+    },
+    "Reference": {
+      "1": "https://citizenlab.org/2016/05/stealth-falcon/"
+    },
+    "Software": {}
+  }
+}, {
+  "Strider": {
+    "Software": {
+      "S0125": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1087", "T1003", "T1094", "T1025", "T1089", "T1048", "T1052", "T1068", "T1083", "T1107", "T1056", "T1036", "T1046", "T1027", "T1174", "T1057", "T1055", "T1105", "T1018", "T1053", "T1063", "T1071", "T1032", "T1095", "T1082", "T1016", "T1049", "T1033", "T1065"]
+      }
+    },
+    "Reference": {
+      "1": "http://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets",
+      "3": "https://securelist.com/files/2016/07/The-ProjectSauron-APT_research_KL.pdf",
+      "2": "https://securelist.com/faq-the-projectsauron-apt/75533/"
+    },
+    "Techniques Used": {
+      "T1090": ["2"],
+      "T1003": ["3"]
+    }
+  }
+}, {
+  "Sowbug": {
+    "Techniques Used": {
+      "T1082": ["1"],
+      "T1083": ["1"],
+      "T1056": ["1"],
+      "T1002": ["1"],
+      "T1003": ["1"],
+      "T1059": ["1"],
+      "T1036": ["1"],
+      "T1135": ["1"],
+      "T1039": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments"
+    },
+    "Software": {
+      "S0171": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1024", "T1036", "T1105", "T1063", "T1071", "T1032", "T1082", "T1016", "T1033"]
+      },
+      "S0188": {
+        "Referrence": ["1"],
+        "techniques": ["T1140", "T1036"]
+      }
+    }
+  }
+}, {
+  "SilverTerrier": {
+    "Software": {
+      "S0334": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1115", "T1059", "T1089", "T1056", "T1036", "T1112", "T1057", "T1060", "T1076", "T1105", "T1064", "T1045", "T1071", "T1082", "T1033", "T1125"]
+      },
+      "S0198": {
+        "Referrence": ["1"],
+        "techniques": ["T1116", "T1056", "T1060", "T1113", "T1082"]
+      },
+      "S0336": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1059", "T1089", "T1056", "T1112", "T1027", "T1060", "T1105", "T1064", "T1032", "T1016", "T1065", "T1125"]
+      },
+      "S0331": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1115", "T1022", "T1089", "T1048", "T1203", "T1056", "T1027", "T1057", "T1060", "T1105", "T1113", "T1071", "T1082", "T1016", "T1033", "T1124", "T1065", "T1125"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/whitepapers/unit42-silverterrier-rise-of-nigerian-business-email-compromise",
+      "2": "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/silverterrier-next-evolution-in-nigerian-cybercrime.pdf"
+    },
+    "Techniques Used": {
+      "T1071": ["1"]
+    }
+  }
+}, {
+  "Scarlet Mimic": {
+    "Techniques Used": {
+      "T1036": ["1"]
+    },
+    "Reference": {
+      "1": "http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/"
+    },
+    "Software": {
+      "S0077": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1041", "T1105", "T1032"]
+      },
+      "S0076": {
+        "Referrence": ["1"],
+        "techniques": ["T1024", "T1001", "T1056", "T1071", "T1032"]
+      },
+      "S0079": {
+        "Referrence": ["1"],
+        "techniques": ["T1217", "T1005", "T1041", "T1083", "T1057", "T1105", "T1032", "T1082", "T1065"]
+      },
+      "S0078": {
+        "Referrence": ["1"],
+        "techniques": ["T1041", "T1083", "T1105", "T1071", "T1099"]
+      }
+    }
+  }
+}, {
+  "Sandworm Team": {
+    "Software": {
+      "S0089": {
+        "Referrence": ["1", "3"],
+        "techniques": ["T1088", "T1081", "T1485", "T1008", "T1083", "T1044", "T1070", "T1056", "T1046", "T1050", "T1120", "T1057", "T1055", "T1060", "T1113", "T1023", "T1071", "T1082", "T1016", "T1049", "T1077", "T1047"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2016/01/ukraine-and-sandworm-team.html",
+      "3": "https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf",
+      "2": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-january-voodoo-bear/"
+    },
+    "Techniques Used": {}
+  }
+}, {
+  "RTM": {
+    "Techniques Used": {
+      "T1102": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf"
+    },
+    "Software": {
+      "S0148": {
+        "Referrence": ["1"],
+        "techniques": ["T1119", "T1088", "T1115", "T1116", "T1059", "T1094", "T1024", "T1083", "T1107", "T1070", "T1056", "T1130", "T1112", "T1027", "T1120", "T1057", "T1060", "T1105", "T1085", "T1053", "T1113", "T1063", "T1082", "T1033", "T1124"]
+      }
+    }
+  }
+}, {
+  "Rancor": {
+    "Software": {
+      "S0255": {
+        "Referrence": ["1"],
+        "techniques": ["T1094", "T1140", "T1083", "T1105", "T1085"]
+      },
+      "S0254": {
+        "Referrence": ["1"],
+        "techniques": ["T1088", "T1059", "T1094", "T1024", "T1112", "T1057", "T1060", "T1105", "T1082", "T1016"]
+      },
+      "S0160": {
+        "Referrence": ["1"],
+        "techniques": ["T1140", "T1130", "T1105"]
+      },
+      "S0075": {
+        "Referrence": ["1"],
+        "techniques": ["T1214", "T1112", "T1012"]
+      }
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/"
+    },
+    "Techniques Used": {
+      "T1071": ["1"],
+      "T1105": ["1"],
+      "T1053": ["1"],
+      "T1193": ["1"],
+      "T1064": ["1"],
+      "T1059": ["1"],
+      "T1218": ["1"],
+      "T1204": ["1"]
+    }
+  }
+}, {
+  "Poseidon Group": {
+    "Techniques Used": {
+      "T1057": ["1"],
+      "T1086": ["1"],
+      "T1087": ["1"],
+      "T1003": ["1"],
+      "T1007": ["1"],
+      "T1049": ["1"],
+      "T1036": ["1"]
+    },
+    "Reference": {
+      "1": "https://securelist.com/poseidon-group-a-targeted-attack-boutique-specializing-in-global-cyber-espionage/73673/"
+    },
+    "Software": {}
+  }
+}, {
+  "Putter Panda": {
+    "Software": {
+      "S0068": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1024", "T1071"]
+      },
+      "S0065": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1024", "T1083", "T1057", "T1071", "T1082"]
+      },
+      "S0066": {
+        "Referrence": ["1"],
+        "techniques": ["T1024", "T1083", "T1108", "T1071", "T1032", "T1099"]
+      },
+      "S0067": {
+        "Referrence": ["1"],
+        "techniques": ["T1081", "T1107", "T1071"]
+      }
+    },
+    "Reference": {
+      "1": "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf",
+      "2": "http://blog.cylance.com/puttering-into-the-future"
+    },
+    "Techniques Used": {
+      "T1055": ["1"],
+      "T1089": ["1"],
+      "T1060": ["1"],
+      "T1027": ["1"]
+    }
+  }
+}, {
+  "PROMETHIUM": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/",
+      "2": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf"
+    },
+    "Software": {
+      "S0178": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1036", "T1060"]
+      }
+    }
+  }
+}, {
+  "PLATINUM": {
+    "Software": {
+      "S0200": {
+        "Referrence": [],
+        "techniques": []
+      },
+      "S0201": {
+        "Referrence": [],
+        "techniques": []
+      },
+      "S0202": {
+        "Referrence": [],
+        "techniques": []
+      }
+    },
+    "Reference": {
+      "1": "https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf"
+    },
+    "Techniques Used": {
+      "T1055": [],
+      "T1179": [],
+      "T1068": [],
+      "T1094": [],
+      "T1105": [],
+      "T1193": [],
+      "T1003": [],
+      "T1036": [],
+      "T1189": [],
+      "T1056": [],
+      "T1095": [],
+      "T1204": []
+    }
+  }
+}, {
+  "PittyTiger": {
+    "Techniques Used": {
+      "T1078": ["1"]
+    },
+    "Reference": {
+      "1": "http://blog.cassidiancybersecurity.com/post/2014/07/The-Eye-of-the-Tiger2",
+      "2": "https://www.fireeye.com/blog/threat-research/2014/07/spy-of-the-tiger.html"
+    },
+    "Software": {
+      "S0032": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1059", "T1043", "T1073", "T1107", "T1070", "T1056", "T1050", "T1057", "T1060", "T1105", "T1085", "T1113", "T1032"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0010": {
+        "Referrence": ["2"],
+        "techniques": ["T1024", "T1002"]
+      },
+      "S0008": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0012": {
+        "Referrence": ["2"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      }
+    }
+  }
+}, {
+  "Patchwork": {
+    "Software": {
+      "S0194": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1087", "T1123", "T1003", "T1214", "T1005", "T1038", "T1482", "T1066", "T1056", "T1208", "T1031", "T1027", "T1034", "T1086", "T1057", "T1055", "T1012", "T1060", "T1053", "T1113", "T1101", "T1047"]
+      },
+      "S0130": {
+        "Referrence": ["7"],
+        "techniques": ["T1003", "T1089", "T1056", "T1105", "T1091", "T1082", "T1016", "T1033"]
+      },
+      "S0262": {
+        "Referrence": ["3", "4"],
+        "techniques": ["T1116", "T1059", "T1090", "T1003", "T1081", "T1056", "T1036", "T1112", "T1076", "T1105", "T1053", "T1032", "T1082", "T1125"]
+      },
+      "S0273": {
+        "Referrence": ["3"],
+        "techniques": ["T1090", "T1086", "T1057", "T1055", "T1113"]
+      },
+      "S0272": {
+        "Referrence": ["3"],
+        "techniques": ["T1083", "T1105", "T1032", "T1082", "T1033"]
+      },
+      "S0131": {
+        "Referrence": ["7"],
+        "techniques": ["T1020", "T1083", "T1027", "T1060"]
+      },
+      "S0129": {
+        "Referrence": ["7"],
+        "techniques": ["T1088", "T1132", "T1083", "T1086"]
+      },
+      "S0128": {
+        "Referrence": ["7", "3"],
+        "techniques": ["T1119", "T1116", "T1059", "T1024", "T1132", "T1005", "T1039", "T1025", "T1001", "T1074", "T1073", "T1106", "T1083", "T1056", "T1036", "T1120", "T1093", "T1060", "T1105", "T1053", "T1113", "T1071", "T1102"]
+      }
+    },
+    "Reference": {
+      "1": "https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf",
+      "3": "https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf",
+      "2": "http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries",
+      "5": "https://securelist.com/the-dropping-elephant-actor/75328/",
+      "4": "https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/",
+      "7": "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
+      "6": "https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/",
+      "8": "http://enterprise-manage.norman.c.bitbit.net/resources/files/Unveiling_an_Indian_Cyberattack_Infrastructure.pdf"
+    },
+    "Techniques Used": {
+      "T1093": ["1"],
+      "T1192": ["2", "3", "4"],
+      "T1193": ["1", "5", "3", "4"],
+      "T1036": ["1"],
+      "T1033": ["1", "3"],
+      "T1203": ["1", "5", "2", "6", "3", "4"],
+      "T1204": ["3", "4"],
+      "T1073": ["3"],
+      "T1132": ["1"],
+      "T1119": ["3"],
+      "T1053": ["3"],
+      "T1074": ["3"],
+      "T1173": ["3"],
+      "T1059": ["1"],
+      "T1112": ["3"],
+      "T1082": ["1", "3"],
+      "T1083": ["1", "3"],
+      "T1086": ["1", "3"],
+      "T1063": ["1"],
+      "T1088": ["1"],
+      "T1189": ["2", "4"],
+      "T1045": ["5"],
+      "T1027": ["3"],
+      "T1076": ["1"],
+      "T1102": ["5"],
+      "T1009": ["3"],
+      "T1107": ["3"],
+      "T1105": ["5", "3"],
+      "T1064": ["3", "4"],
+      "T1003": ["1"],
+      "T1066": ["3"],
+      "T1060": ["1", "3"],
+      "T1022": ["3"],
+      "T1005": ["1"]
+    }
+  }
+}, {
+  "OilRig": {
+    "Techniques Used": {
+      "T1078": ["5", "8"],
+      "T1094": ["5"],
+      "T1192": ["9"],
+      "T1193": ["9", "7", "1"],
+      "T1059": ["6", "9", "5", "8"],
+      "T1140": ["6", "1", "9"],
+      "T1223": ["3"],
+      "T1033": ["3", "4"],
+      "T1032": ["8"],
+      "T1201": ["1"],
+      "T1113": ["8"],
+      "T1204": ["9", "7", "1"],
+      "T1057": ["3"],
+      "T1056": ["8"],
+      "T1133": ["8"],
+      "T1053": ["9", "7"],
+      "T1012": ["3"],
+      "T1110": ["8"],
+      "T1016": ["3", "4"],
+      "T1082": ["3", "4"],
+      "T1086": ["6", "1", "1"],
+      "T1087": ["3"],
+      "T1071": ["5", "8"],
+      "T1021": ["5"],
+      "T1027": ["6", "7", "5", "1", "1"],
+      "T1076": ["5", "8"],
+      "T1046": ["8"],
+      "T1047": ["8"],
+      "T1008": ["1"],
+      "T1100": ["5", "8"],
+      "T1107": ["6", "9"],
+      "T1069": ["3"],
+      "T1105": ["6"],
+      "T1064": ["6", "1", "9", "7", "1"],
+      "T1003": ["5", "8", "1"],
+      "T1066": ["1", "1"],
+      "T1108": ["5"],
+      "T1007": ["3"],
+      "T1048": ["4"],
+      "T1049": ["3"],
+      "T1119": ["5"]
+    },
+    "Reference": {
+      "11": "https://researchcenter.paloaltonetworks.com/2017/10/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/",
+      "10": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf",
+      "13": "https://unit42.paloaltonetworks.com/unit42-analyzing-oilrigs-ops-tempo-testing-weaponization-delivery/",
+      "12": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/",
+      "15": "https://www.fireeye.com/blog/threat-research/2016/05/targeted_attacksaga.html",
+      "14": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-november-helix-kitten/",
+      "16": "https://researchcenter.paloaltonetworks.com/2018/01/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/",
+      "1": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-oilrig-actors-provide-glimpse-development-testing-efforts/",
+      "3": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
+      "2": "http://www.clearskysec.com/oilrig/",
+      "5": "https://pan-unit42.github.io/playbook_viewer/",
+      "4": "http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/",
+      "7": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/",
+      "6": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
+      "9": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
+      "8": "https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east"
+    },
+    "Software": {
+      "S0185": {
+        "Referrence": ["8"],
+        "techniques": ["T1059", "T1105", "T1099", "T1100"]
+      },
+      "S0096": {
+        "Referrence": ["6"],
+        "techniques": ["T1082"]
+      },
+      "S0002": {
+        "Referrence": ["5", "8", "1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["8"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0039": {
+        "Referrence": ["3", "6"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0160": {
+        "Referrence": ["6"],
+        "techniques": ["T1140", "T1130", "T1105"]
+      },
+      "S0189": {
+        "Referrence": ["1"],
+        "techniques": ["T1140", "T1027", "T1093", "T1053"]
+      },
+      "S0269": {
+        "Referrence": ["7"],
+        "techniques": ["T1059", "T1001", "T1140", "T1008", "T1107", "T1036", "T1112", "T1027", "T1086", "T1012", "T1053", "T1064", "T1071", "T1016", "T1033"]
+      },
+      "S0095": {
+        "Referrence": ["4"],
+        "techniques": ["T1043", "T1048"]
+      },
+      "S0075": {
+        "Referrence": ["3", "6"],
+        "techniques": ["T1214", "T1112", "T1012"]
+      },
+      "S0184": {
+        "Referrence": ["6"],
+        "techniques": ["T1087", "T1059", "T1132", "T1083", "T1069", "T1086", "T1057", "T1012", "T1105", "T1053", "T1113", "T1063", "T1071", "T1082", "T1016", "T1049", "T1033", "T1047"]
+      },
+      "S0170": {
+        "Referrence": ["3", "8", "1"],
+        "techniques": ["T1119", "T1115", "T1116", "T1059", "T1132", "T1074", "T1030", "T1056", "T1027", "T1069", "T1086", "T1057", "T1060", "T1105", "T1053", "T1064", "T1023", "T1071", "T1032"]
+      },
+      "S0264": {
+        "Referrence": ["9"],
+        "techniques": ["T1059", "T1002", "T1132", "T1074", "T1030", "T1140", "T1041", "T1107", "T1027", "T1105", "T1053", "T1064", "T1045", "T1071", "T1082", "T1124", "T1497", "T1047"]
+      },
+      "S0258": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1022", "T1140", "T1105", "T1071", "T1033"]
+      },
+      "S0349": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1081"]
+      },
+      "S0104": {
+        "Referrence": ["3", "6"],
+        "techniques": ["T1049"]
+      },
+      "S0100": {
+        "Referrence": ["3"],
+        "techniques": ["T1016"]
+      },
+      "S0057": {
+        "Referrence": ["3", "6"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0360": {
+        "Referrence": [],
+        "techniques": ["T1059", "T1483", "T1086", "T1105", "T1053", "T1071"]
+      }
+    }
+  }
+}, {
+  "Orangeworm": {
+    "Software": {
+      "S0096": {
+        "Referrence": ["1"],
+        "techniques": ["T1082"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0236": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1009", "T1140", "T1008", "T1083", "T1036", "T1135", "T1050", "T1027", "T1201", "T1069", "T1057", "T1105", "T1018", "T1085", "T1082", "T1016", "T1049", "T1033", "T1007", "T1077"]
+      },
+      "S0099": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      },
+      "S0106": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1107", "T1105", "T1082"]
+      },
+      "S0104": {
+        "Referrence": ["1"],
+        "techniques": ["T1049"]
+      },
+      "S0103": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      },
+      "S0100": {
+        "Referrence": ["1"],
+        "techniques": ["T1016"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia"
+    },
+    "Techniques Used": {
+      "T1071": [],
+      "T1077": ["1"]
+    }
+  }
+}, {
+  "Night Dragon": {
+    "Techniques Used": {
+      "T1071": ["1"],
+      "T1045": ["1"],
+      "T1190": ["1"],
+      "T1043": ["1"],
+      "T1075": ["1"],
+      "T1074": ["1"],
+      "T1003": ["1"],
+      "T1089": ["1"],
+      "T1307": ["1"],
+      "T1351": ["1"],
+      "T1192": ["1"],
+      "T1219": ["1"],
+      "T1027": ["1"],
+      "T1330": ["1"],
+      "T1204": ["1"],
+      "T1078": ["1"],
+      "T1133": ["1"]
+    },
+    "Reference": {
+      "1": "https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf"
+    },
+    "Software": {
+      "S0110": {
+        "Referrence": ["1"],
+        "techniques": ["T1053"]
+      },
+      "S0350": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1107", "T1112", "T1050", "T1076", "T1053", "T1082", "T1016", "T1033", "T1077"]
+      },
+      "S0073": {
+        "Referrence": ["1"],
+        "techniques": ["T1100"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0008": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      }
+    }
+  }
+}, {
+  "NEODYMIUM": {
+    "Software": {
+      "S0176": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1073", "T1068", "T1107", "T1177", "T1050", "T1055", "T1063", "T1035", "T1082"]
+      }
+    },
+    "Reference": {
+      "1": "https://blogs.technet.microsoft.com/mmpc/2016/12/14/twin-zero-day-attacks-promethium-and-neodymium-target-individuals-in-europe/",
+      "3": "https://www.cyberscoop.com/middle-eastern-hacking-group-using-finfisher-malware-conduct-international-espionage/",
+      "2": "http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf"
+    },
+    "Techniques Used": {}
+  }
+}, {
+  "Naikon": {
+    "Techniques Used": {
+      "T1063": ["1"],
+      "T1016": ["1"]
+    },
+    "Reference": {
+      "1": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+      "3": "https://securelist.com/the-naikon-apt/69953/",
+      "2": "http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf"
+    },
+    "Software": {
+      "S0059": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1008", "T1083", "T1057", "T1071", "T1082", "T1033"]
+      },
+      "S0058": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1134", "T1089", "T1008", "T1056", "T1036", "T1060", "T1023", "T1082", "T1033"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0055": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1083", "T1055", "T1105", "T1071"]
+      },
+      "S0057": {
+        "Referrence": ["1"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0060": {
+        "Referrence": ["1"],
+        "techniques": ["T1024", "T1069", "T1071", "T1082", "T1016", "T1033"]
+      },
+      "S0061": {
+        "Referrence": ["1"],
+        "techniques": ["T1089", "T1046"]
+      },
+      "S0108": {
+        "Referrence": ["1"],
+        "techniques": ["T1090", "T1089", "T1128", "T1063"]
+      },
+      "S0095": {
+        "Referrence": ["1"],
+        "techniques": ["T1043", "T1048"]
+      },
+      "S0097": {
+        "Referrence": ["1"],
+        "techniques": ["T1018"]
+      },
+      "S0096": {
+        "Referrence": ["1"],
+        "techniques": ["T1082"]
+      }
+    }
+  }
+}, {
+  "MuddyWater": {
+    "Software": {
+      "S0349": {
+        "Referrence": ["2"],
+        "techniques": ["T1003", "T1081"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0223": {
+        "Referrence": ["1", "4", "3", "2"],
+        "techniques": ["T1087", "T1043", "T1090", "T1132", "T1005", "T1140", "T1089", "T1175", "T1173", "T1107", "T1036", "T1170", "T1027", "T1086", "T1105", "T1053", "T1029", "T1113", "T1064", "T1063", "T1032", "T1082", "T1016", "T1065", "T1047"]
+      }
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
+      "3": "https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf",
+      "2": "https://www.symantec.com/blogs/threat-intelligence/seedworm-espionage-group",
+      "5": "https://blog.trendmicro.com/trendlabs-security-intelligence/another-potential-muddywater-campaign-uses-powershell-based-prb-backdoor/",
+      "4": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
+      "7": "https://github.com/danielbohannon/Invoke-Obfuscation",
+      "6": "https://securelist.com/muddywater/88059/"
+    },
+    "Techniques Used": {
+      "T1090": ["2"],
+      "T1191": ["4"],
+      "T1193": ["1", "4", "6"],
+      "T1027": ["1", "7", "1", "4", "6"],
+      "T1036": ["4", "3"],
+      "T1033": ["6"],
+      "T1175": ["6"],
+      "T1204": ["1", "4", "6"],
+      "T1057": ["6"],
+      "T1500": ["3"],
+      "T1173": ["6"],
+      "T1170": ["4", "6"],
+      "T1059": ["2"],
+      "T1016": ["6"],
+      "T1082": ["6"],
+      "T1083": ["6"],
+      "T1081": ["2"],
+      "T1086": ["4", "5", "6", "2", "3"],
+      "T1085": ["6"],
+      "T1088": ["3"],
+      "T1140": ["4", "5", "3"],
+      "T1113": ["6"],
+      "T1047": ["6", "3"],
+      "T1105": ["6", "3"],
+      "T1002": ["2"],
+      "T1003": ["1", "2"],
+      "T1060": ["4", "6"],
+      "T1063": ["6"],
+      "T1064": ["4", "5", "6", "2", "3"]
+    }
+  }
+}, {
+  "Molerats": {
+    "Techniques Used": {
+      "T1003": ["1"],
+      "T1116": ["3"],
+      "T1057": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf",
+      "3": "https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html",
+      "2": "http://www.clearskysec.com/wp-content/uploads/2016/06/Operation-DustySky2_-6.2016_TLP_White.pdf"
+    },
+    "Software": {
+      "S0062": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1008", "T1083", "T1056", "T1027", "T1057", "T1060", "T1105", "T1091", "T1063", "T1071", "T1082", "T1047"]
+      },
+      "S0012": {
+        "Referrence": ["1", "2", "3"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      }
+    }
+  }
+}, {
+  "Moafee": {
+    "Software": {
+      "S0012": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2014/09/the-path-to-mass-producing-cyber-attacks.html"
+    },
+    "Techniques Used": {
+      "T1009": ["1"]
+    }
+  }
+}, {
+  "menuPass": {
+    "Techniques Used": {
+      "T1090": ["5"],
+      "T1093": ["9"],
+      "T1193": ["7", "5", "1", "6"],
+      "T1027": ["9", "1"],
+      "T1199": ["7", "5"],
+      "T1036": ["6", "1"],
+      "T1005": ["6"],
+      "T1204": ["7", "5", "9", "6"],
+      "T1039": ["4"],
+      "T1038": ["4"],
+      "T1073": ["7", "1"],
+      "T1018": ["7", "5"],
+      "T1056": ["6"],
+      "T1076": ["4", "6"],
+      "T1053": ["7"],
+      "T1074": ["4"],
+      "T1078": ["4"],
+      "T1059": ["4", "7", "8"],
+      "T1016": ["7"],
+      "T1086": ["7"],
+      "T1087": ["7"],
+      "T1021": ["4"],
+      "T1022": ["6"],
+      "T1140": ["9", "1"],
+      "T1046": ["7"],
+      "T1047": ["7", "8"],
+      "T1107": ["9", "6"],
+      "T1105": ["4", "6"],
+      "T1002": ["4", "7"],
+      "T1003": ["7", "8"],
+      "T1049": ["4"],
+      "T1064": ["9", "1"]
+    },
+    "Reference": {
+      "10": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html",
+      "1": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
+      "3": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf",
+      "2": "https://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem",
+      "5": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+      "4": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf",
+      "7": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+      "6": "https://www.justice.gov/opa/press-release/file/1121706/download",
+      "9": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+      "8": "https://github.com/Twi1ight/AD-Pentest-Script/blob/master/wmiexec.vbs"
+    },
+    "Software": {
+      "S0006": {
+        "Referrence": ["7"],
+        "techniques": ["T1003"]
+      },
+      "S0194": {
+        "Referrence": ["7"],
+        "techniques": ["T1134", "T1087", "T1123", "T1003", "T1214", "T1005", "T1038", "T1482", "T1066", "T1056", "T1208", "T1031", "T1027", "T1034", "T1086", "T1057", "T1055", "T1012", "T1060", "T1053", "T1113", "T1101", "T1047"]
+      },
+      "S0029": {
+        "Referrence": ["7", "5"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0013": {
+        "Referrence": ["7", "5", "6"],
+        "techniques": ["T1059", "T1043", "T1094", "T1140", "T1073", "T1106", "T1083", "T1056", "T1036", "T1031", "T1112", "T1026", "T1135", "T1050", "T1057", "T1012", "T1060", "T1105", "T1113", "T1071", "T1095", "T1049", "T1127", "T1497", "T1102"]
+      },
+      "S0012": {
+        "Referrence": ["7", "6"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      },
+      "S0039": {
+        "Referrence": ["7"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0160": {
+        "Referrence": ["9", "1"],
+        "techniques": ["T1140", "T1130", "T1105"]
+      },
+      "S0144": {
+        "Referrence": ["7"],
+        "techniques": ["T1116", "T1003", "T1024", "T1089", "T1083", "T1036", "T1057", "T1060", "T1105", "T1071", "T1032", "T1082"]
+      },
+      "S0262": {
+        "Referrence": ["6"],
+        "techniques": ["T1116", "T1059", "T1090", "T1003", "T1081", "T1056", "T1036", "T1112", "T1076", "T1105", "T1053", "T1032", "T1082", "T1125"]
+      },
+      "S0275": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1105", "T1113", "T1071", "T1032", "T1082", "T1016", "T1033", "T1124"]
+      },
+      "S0357": {
+        "Referrence": ["7"],
+        "techniques": ["T1003", "T1208", "T1171", "T1040", "T1035", "T1047"]
+      },
+      "S0152": {
+        "Referrence": ["7"],
+        "techniques": ["T1123", "T1043", "T1056", "T1060", "T1113", "T1125"]
+      },
+      "S0153": {
+        "Referrence": ["7", "6"],
+        "techniques": ["T1059", "T1043", "T1003", "T1094", "T1038", "T1083", "T1107", "T1027", "T1060", "T1105", "T1113", "T1023", "T1071", "T1032", "T1082", "T1016", "T1049", "T1033", "T1065"]
+      },
+      "S0002": {
+        "Referrence": ["7"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0097": {
+        "Referrence": ["7", "5"],
+        "techniques": ["T1018"]
+      },
+      "S0106": {
+        "Referrence": ["7"],
+        "techniques": ["T1059", "T1083", "T1107", "T1105", "T1082"]
+      },
+      "S0159": {
+        "Referrence": ["5"],
+        "techniques": ["T1059", "T1060", "T1071", "T1032"]
+      }
+    }
+  }
+}, {
+  "Magic Hound": {
+    "Software": {
+      "S0192": {
+        "Referrence": ["1", "5", "3", "2"],
+        "techniques": ["T1134", "T1087", "T1123", "T1088", "T1136", "T1003", "T1002", "T1114", "T1041", "T1083", "T1070", "T1056", "T1171", "T1079", "T1046", "T1135", "T1086", "T1057", "T1055", "T1060", "T1076", "T1105", "T1113", "T1064", "T1035", "T1071", "T1032", "T1082", "T1016", "T1049", "T1033", "T1501", "T1125", "T1497"]
+      },
+      "S0225": {
+        "Referrence": ["6"],
+        "techniques": ["T1190"]
+      },
+      "S0002": {
+        "Referrence": ["2"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0224": {
+        "Referrence": ["6"],
+        "techniques": ["T1190"]
+      },
+      "S0029": {
+        "Referrence": ["2"],
+        "techniques": ["T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
+      "3": "https://www.secureworks.com/research/the-curious-case-of-mia-ash",
+      "2": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf",
+      "5": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations",
+      "4": "http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf",
+      "6": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf"
+    },
+    "Techniques Used": {
+      "T1194": ["3"],
+      "T1192": ["3"],
+      "T1193": ["3"],
+      "T1033": ["1"],
+      "T1016": ["1"],
+      "T1204": ["3"],
+      "T1057": ["1"],
+      "T1056": ["1"],
+      "T1114": ["2"],
+      "T1059": ["1"],
+      "T1113": ["1"],
+      "T1082": ["1"],
+      "T1083": ["1"],
+      "T1086": ["1", "2"],
+      "T1071": ["1"],
+      "T1027": ["1"],
+      "T1102": ["1"],
+      "T1107": ["1", "2"],
+      "T1043": ["1"],
+      "T1105": ["1"],
+      "T1002": ["2"],
+      "T1003": ["2"],
+      "T1060": ["1"],
+      "T1064": ["1"],
+      "T1065": ["1"]
+    }
+  }
+}, {
+  "Lotus Blossom": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html",
+      "3": "https://securelist.com/the-spring-dragon-apt/70726/",
+      "2": "https://www.accenture.com/t20180127T003755Z_w_/us-en/_acnmedia/PDF-46/Accenture-Security-Dragonfish-Threat-Analysis.pdf",
+      "5": "http://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
+      "4": "http://researchcenter.paloaltonetworks.com/2015/12/attack-on-french-diplomat-linked-to-operation-lotus-blossom/"
+    },
+    "Software": {
+      "S0082": {
+        "Referrence": ["4", "5"],
+        "techniques": ["T1009", "T1059", "T1024", "T1050", "T1027", "T1069", "T1055", "T1060", "T1105", "T1085", "T1071", "T1082", "T1016", "T1007"]
+      },
+      "S0081": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1087", "T1132", "T1074", "T1083", "T1107", "T1036", "T1050", "T1027", "T1057", "T1055", "T1060", "T1105", "T1085", "T1071", "T1032", "T1082", "T1016", "T1007", "T1099"]
+      }
+    }
+  }
+}, {
+  "Leviathan": {
+    "Software": {
+      "S0190": {
+        "Referrence": ["2"],
+        "techniques": ["T1048", "T1105"]
+      },
+      "S0005": {
+        "Referrence": ["3"],
+        "techniques": ["T1003"]
+      },
+      "S0228": {
+        "Referrence": ["1"],
+        "techniques": ["T1089", "T1107", "T1170", "T1027", "T1060", "T1105", "T1064", "T1071", "T1082", "T1016", "T1033"]
+      },
+      "S0229": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1070", "T1027", "T1057", "T1093", "T1117", "T1105", "T1064", "T1082", "T1016", "T1102"]
+      },
+      "S0039": {
+        "Referrence": ["3"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0020": {
+        "Referrence": ["2"],
+        "techniques": ["T1110", "T1059", "T1005", "T1083", "T1046", "T1105", "T1064", "T1045", "T1071", "T1099", "T1100"]
+      },
+      "S0021": {
+        "Referrence": ["2"],
+        "techniques": ["T1123", "T1059", "T1043", "T1094", "T1024", "T1008", "T1083", "T1107", "T1056", "T1057", "T1055", "T1012", "T1117", "T1113", "T1095", "T1082", "T1033", "T1099", "T1125"]
+      },
+      "S0233": {
+        "Referrence": ["2"],
+        "techniques": ["T1087", "T1059", "T1107", "T1046", "T1135", "T1069", "T1018", "T1053", "T1082"]
+      },
+      "S0232": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1003", "T1027"]
+      },
+      "S0154": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0110": {
+        "Referrence": ["3"],
+        "techniques": ["T1053"]
+      },
+      "S0069": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1083", "T1107", "T1104", "T1057", "T1102"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
+      "3": "https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html"
+    },
+    "Techniques Used": {
+      "T1197": ["2"],
+      "T1192": ["1"],
+      "T1193": ["1"],
+      "T1027": ["1"],
+      "T1203": ["1", "2"],
+      "T1204": ["1"],
+      "T1076": ["3"],
+      "T1074": ["2"],
+      "T1116": ["2", "3"],
+      "T1117": ["1"],
+      "T1059": ["2"],
+      "T1078": ["1"],
+      "T1086": ["1", "2"],
+      "T1084": ["2"],
+      "T1047": ["1"],
+      "T1021": ["3"],
+      "T1100": ["3"],
+      "T1140": ["1"],
+      "T1102": ["2"],
+      "T1009": ["1"],
+      "T1105": ["1", "2"],
+      "T1064": ["1"],
+      "T1003": ["3"],
+      "T1060": ["1", "2"],
+      "T1023": ["1", "2"]
+    }
+  }
+}, {
+  "Leafminer": {
+    "Techniques Used": {
+      "T1136": ["1"],
+      "T1083": ["1"],
+      "T1018": ["1"],
+      "T1114": ["1"],
+      "T1003": ["1"],
+      "T1108": ["1"],
+      "T1110": ["1"],
+      "T1064": ["1"],
+      "T1189": ["1"],
+      "T1027": ["1"],
+      "T1046": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east",
+      "2": "https://www.dragos.com/blog/20180802Raspite.html"
+    },
+    "Software": {
+      "S0349": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1081"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      }
+    }
+  }
+}, {
+  "Lazarus Group": {
+    "Software": {
+      "S0239": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1087", "T1119", "T1059", "T1132", "T1005", "T1001", "T1140", "T1106", "T1041", "T1203", "T1083", "T1107", "T1070", "T1031", "T1112", "T1057", "T1012", "T1105", "T1071", "T1082", "T1099", "T1065"]
+      },
+      "S0238": {
+        "Referrence": ["1"],
+        "techniques": ["T1119", "T1059", "T1043", "T1485", "T1005", "T1041", "T1083", "T1107", "T1057", "T1012", "T1064", "T1035", "T1071", "T1082", "T1016", "T1124"]
+      },
+      "S0181": {
+        "Referrence": ["1"],
+        "techniques": ["T1024", "T1083", "T1107", "T1082", "T1016", "T1099"]
+      },
+      "S0180": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1094", "T1132", "T1140", "T1106", "T1083", "T1107", "T1036", "T1031", "T1112", "T1050", "T1027", "T1057", "T1012", "T1105", "T1032", "T1082", "T1016", "T1049", "T1007", "T1065"]
+      },
+      "S0366": {
+        "Referrence": ["2", "2", "2", "2"],
+        "techniques": ["T1024", "T1486", "T1210", "T1083", "T1222", "T1158", "T1490", "T1188", "T1079", "T1050", "T1120", "T1076", "T1105", "T1018", "T1489", "T1016", "T1047"]
+      },
+      "S0271": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1024", "T1083", "T1107", "T1112", "T1057", "T1105", "T1113", "T1082", "T1016"]
+      },
+      "S0263": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1090", "T1094", "T1140", "T1089", "T1083", "T1107", "T1031", "T1112", "T1050", "T1027", "T1105", "T1064", "T1082", "T1065", "T1204"]
+      },
+      "S0246": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1090", "T1024", "T1089"]
+      },
+      "S0347": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1090", "T1140", "T1083", "T1107", "T1050", "T1027", "T1055", "T1105"]
+      },
+      "S0108": {
+        "Referrence": ["7"],
+        "techniques": ["T1090", "T1089", "T1128", "T1063"]
+      },
+      "S0241": {
+        "Referrence": ["2"],
+        "techniques": ["T1087", "T1059", "T1043", "T1086", "T1057", "T1055", "T1012", "T1105", "T1018", "T1071", "T1082", "T1016", "T1049", "T1033", "T1007", "T1047"]
+      },
+      "S0002": {
+        "Referrence": ["3"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0364": {
+        "Referrence": ["2", "6"],
+        "techniques": ["T1485", "T1488", "T1487"]
+      },
+      "S0245": {
+        "Referrence": ["2"],
+        "techniques": ["T1043", "T1090", "T1024", "T1089", "T1112", "T1082", "T1016"]
+      },
+      "S0376": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1090", "T1003", "T1001", "T1089", "T1041", "T1008", "T1083", "T1112", "T1075", "T1055", "T1012", "T1105", "T1035", "T1082", "T1124", "T1065", "T1047"]
+      }
+    },
+    "Reference": {
+      "24": "https://www.us-cert.gov/ncas/alerts/TA17-318B",
+      "25": "https://content.fireeye.com/apt/rpt-apt38",
+      "26": "https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/",
+      "27": "https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html",
+      "20": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-F.pdf",
+      "21": "https://www.us-cert.gov/ncas/analysis-reports/AR18-221A",
+      "22": "https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-campaign-targeting-cryptocurrencies-reveals-remote-controller-tool-evolved-ratankba/",
+      "23": "https://www.us-cert.gov/ncas/analysis-reports/AR18-165A",
+      "28": "https://www.secureworks.com/research/wcry-ransomware-analysis",
+      "1": "https://www.us-cert.gov/ncas/alerts/TA17-164A",
+      "3": "https://www.welivesecurity.com/2018/04/03/lazarus-killdisk-central-american-casino/",
+      "2": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf",
+      "5": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Tools-Report.pdf",
+      "4": "https://securelist.com/lazarus-under-the-hood/77908/",
+      "7": "https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf",
+      "6": "https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Destructive-Malware-Report.pdf",
+      "9": "https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/",
+      "8": "https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf",
+      "11": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf",
+      "10": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536.11.WHITE.pdf",
+      "13": "https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/",
+      "12": "https://www.us-cert.gov/ncas/alerts/TA17-318A",
+      "15": "https://www.us-cert.gov/ncas/analysis-reports/AR19-100A",
+      "14": "https://securingtomorrow.mcafee.com/mcafee-labs/hidden-cobra-targets-turkish-financial-sector-new-bankshot-implant/",
+      "17": "https://www.secureworks.com/about/press/media-alert-secureworks-discovers-north-korean-cyber-threat-group-lazarus-spearphishing",
+      "16": "https://blogs.microsoft.com/on-the-issues/2017/12/19/microsoft-facebook-disrupt-zinc-malware-attack-protect-customers-internet-ongoing-cyberthreats/",
+      "19": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-G.PDF",
+      "18": "https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-continues-heists-mounts-attacks-on-financial-organizations-in-latin-america/"
+    },
+    "Techniques Used": {
+      "T1090": ["1"],
+      "T1193": ["1"],
+      "T1099": ["2", "6", "7", "1"],
+      "T1098": ["2", "6"],
+      "T1223": ["1"],
+      "T1033": ["2", "6", "7", "8", "9"],
+      "T1032": ["2"],
+      "T1158": ["9"],
+      "T1203": ["1"],
+      "T1204": ["1"],
+      "T1055": ["9"],
+      "T1057": ["2", "7", "9", "1"],
+      "T1056": ["2", "5"],
+      "T1077": ["2", "8"],
+      "T1050": ["2", "6"],
+      "T1074": ["2", "7"],
+      "T1010": ["2", "7", "5"],
+      "T1012": ["2", "7", "9"],
+      "T1110": ["2", "8"],
+      "T1016": ["2", "7"],
+      "T1487": ["1", "2"],
+      "T1485": ["2"],
+      "T1059": ["2", "6", "9", "1"],
+      "T1488": ["6"],
+      "T1489": ["6"],
+      "T1082": ["2", "6", "7", "9", "1"],
+      "T1083": ["2", "1"],
+      "T1047": ["2", "8"],
+      "T1089": ["2", "7", "5", "1"],
+      "T1134": ["2", "5"],
+      "T1189": [],
+      "T1023": ["9"],
+      "T1024": ["2", "6", "9", "1"],
+      "T1071": ["9"],
+      "T1026": ["2", "8"],
+      "T1027": ["2", "7", "8", "9"],
+      "T1132": ["9"],
+      "T1076": ["2", "8"],
+      "T1124": ["1"],
+      "T1008": ["2", "8"],
+      "T1107": ["2", "1"],
+      "T1043": ["2", "8"],
+      "T1105": ["2", "6", "7"],
+      "T1041": ["2", "7", "9"],
+      "T1002": ["2", "7", "8"],
+      "T1003": ["3"],
+      "T1067": ["2", "6"],
+      "T1060": ["2", "8", "9"],
+      "T1022": ["2", "7", "8", "9"],
+      "T1048": ["2", "8"],
+      "T1005": ["2", "7", "8"],
+      "T1064": ["1"],
+      "T1496": ["4"],
+      "T1065": ["2", "8"]
+    }
+  }
+}, {
+  "Ke3chang": {
+    "Techniques Used": {
+      "T1097": ["2"],
+      "T1036": ["1"],
+      "T1035": ["2"],
+      "T1005": ["1"],
+      "T1018": ["2"],
+      "T1057": ["1", "2"],
+      "T1056": ["2"],
+      "T1077": ["1", "2"],
+      "T1050": ["2"],
+      "T1114": ["2"],
+      "T1059": ["1", "2"],
+      "T1016": ["1", "2"],
+      "T1082": ["1", "2"],
+      "T1083": ["1"],
+      "T1087": ["1"],
+      "T1071": ["2"],
+      "T1022": ["1"],
+      "T1213": ["2"],
+      "T1133": ["2"],
+      "T1069": ["1"],
+      "T1041": ["1"],
+      "T1064": ["2"],
+      "T1003": ["1", "2"],
+      "T1060": ["2"],
+      "T1007": ["1"],
+      "T1049": ["1", "2"],
+      "T1002": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf",
+      "3": "https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/",
+      "2": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/"
+    },
+    "Software": {
+      "S0104": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1049"]
+      },
+      "S0002": {
+        "Referrence": ["2"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0227": {
+        "Referrence": ["2"],
+        "techniques": ["T1213"]
+      },
+      "S0039": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0057": {
+        "Referrence": ["2"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0097": {
+        "Referrence": ["2"],
+        "techniques": ["T1018"]
+      },
+      "S0096": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1082"]
+      },
+      "S0280": {
+        "Referrence": ["3"],
+        "techniques": ["T1059", "T1043", "T1140", "T1038", "T1082", "T1033"]
+      },
+      "S0100": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1016"]
+      }
+    }
+  }
+}, {
+  "Group5": {
+    "Software": {},
+    "Reference": {
+      "1": "https://citizenlab.org/2016/08/group5-syria/"
+    },
+    "Techniques Used": {
+      "T1045": ["1"],
+      "T1107": ["1"],
+      "T1065": ["1"],
+      "T1113": ["1"],
+      "T1056": ["1"],
+      "T1027": ["1"]
+    }
+  }
+}, {
+  "Honeybee": {
+    "Techniques Used": {
+      "T1140": ["1"],
+      "T1035": ["1"],
+      "T1031": ["1"],
+      "T1055": ["1"],
+      "T1057": ["1"],
+      "T1074": ["1"],
+      "T1116": ["1"],
+      "T1059": ["1"],
+      "T1112": ["1"],
+      "T1082": ["1"],
+      "T1083": ["1"],
+      "T1088": ["1"],
+      "T1071": ["1"],
+      "T1020": ["1"],
+      "T1022": ["1"],
+      "T1027": ["1"],
+      "T1182": ["1"],
+      "T1107": ["1"],
+      "T1064": ["1"],
+      "T1060": ["1"],
+      "T1005": ["1"],
+      "T1002": ["1"]
+    },
+    "Reference": {
+      "1": "https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/"
+    },
+    "Software": {
+      "S0106": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1083", "T1107", "T1105", "T1082"]
+      },
+      "S0075": {
+        "Referrence": ["1"],
+        "techniques": ["T1214", "T1112", "T1012"]
+      },
+      "S0096": {
+        "Referrence": ["1"],
+        "techniques": ["T1082"]
+      },
+      "S0057": {
+        "Referrence": ["1"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      }
+    }
+  }
+}, {
+  "Gorgon Group": {
+    "Software": {
+      "S0262": {
+        "Referrence": ["1"],
+        "techniques": ["T1116", "T1059", "T1090", "T1003", "T1081", "T1056", "T1036", "T1112", "T1076", "T1105", "T1053", "T1032", "T1082", "T1125"]
+      },
+      "S0336": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1059", "T1089", "T1056", "T1112", "T1027", "T1060", "T1105", "T1064", "T1032", "T1016", "T1065", "T1125"]
+      },
+      "S0332": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1088", "T1115", "T1059", "T1090", "T1083", "T1056", "T1112", "T1027", "T1055", "T1060", "T1105", "T1113", "T1064", "T1125", "T1497"]
+      }
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-gorgon-group-slithering-nation-state-cybercrime/"
+    },
+    "Techniques Used": {
+      "T1055": ["1"],
+      "T1093": ["1"],
+      "T1086": ["1"],
+      "T1106": ["1"],
+      "T1105": ["1"],
+      "T1193": ["1"],
+      "T1064": ["1"],
+      "T1060": ["1"],
+      "T1089": ["1"],
+      "T1059": ["1"],
+      "T1112": ["1"],
+      "T1023": ["1"],
+      "T1140": ["1"],
+      "T1065": ["1"],
+      "T1204": ["1"]
+    }
+  }
+}, {
+  "Gallmaker": {
+    "Techniques Used": {
+      "T1086": ["1"],
+      "T1193": ["1"],
+      "T1002": ["1"],
+      "T1173": ["1"],
+      "T1064": ["1"],
+      "T1027": ["1"],
+      "T1204": ["1"]
+    },
+    "Reference": {
+      "1": "https://www.symantec.com/blogs/threat-intelligence/gallmaker-attack-group"
+    },
+    "Software": {}
+  }
+}, {
+  "Gamaredon Group": {
+    "Software": {
+      "S0147": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1074", "T1041", "T1083", "T1107", "T1060", "T1105", "T1085", "T1053", "T1113", "T1071"]
+      }
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/"
+    },
+    "Techniques Used": {
+      "T1082": ["1"],
+      "T1071": ["1"],
+      "T1120": ["1"],
+      "T1105": ["1"],
+      "T1041": ["1"],
+      "T1064": ["1"],
+      "T1033": ["1"],
+      "T1025": ["1"]
+    }
+  }
+}, {
+  "GCMAN": {
+    "Techniques Used": {
+      "T1021": ["1"]
+    },
+    "Reference": {
+      "1": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/"
+    },
+    "Software": {}
+  }
+}, {
+  "FIN8": {
+    "Software": {
+      "S0105": {
+        "Referrence": ["3"],
+        "techniques": ["T1087", "T1482", "T1069"]
+      },
+      "S0039": {
+        "Referrence": ["3"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0196": {
+        "Referrence": ["2"],
+        "techniques": ["T1182", "T1129", "T1107", "T1036", "T1060", "T1105", "T1085", "T1071"]
+      },
+      "S0197": {
+        "Referrence": ["2"],
+        "techniques": ["T1005", "T1074", "T1027"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html",
+      "3": "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
+    },
+    "Techniques Used": {
+      "T1192": ["3"],
+      "T1193": ["1", "2", "3"],
+      "T1032": ["3"],
+      "T1204": ["1", "2", "3"],
+      "T1018": ["3"],
+      "T1070": ["3"],
+      "T1077": ["3"],
+      "T1076": ["3"],
+      "T1053": ["3"],
+      "T1074": ["3"],
+      "T1078": ["3"],
+      "T1059": ["1"],
+      "T1112": ["3"],
+      "T1086": ["1", "3"],
+      "T1027": ["1", "3"],
+      "T1107": ["3"],
+      "T1047": ["1", "3"],
+      "T1068": ["2", "3"],
+      "T1043": ["3"],
+      "T1105": ["2"],
+      "T1002": ["3"],
+      "T1003": ["3"],
+      "T1048": ["3"],
+      "T1063": ["3"],
+      "T1064": ["3"]
+    }
+  }
+}, {
+  "FIN7": {
+    "Techniques Used": {
+      "T1193": ["2", "9"],
+      "T1036": ["7"],
+      "T1204": ["2"],
+      "T1071": ["4"],
+      "T1050": ["4"],
+      "T1053": ["2", "7", "4"],
+      "T1173": ["6"],
+      "T1116": ["3", "4"],
+      "T1059": ["4"],
+      "T1138": ["5"],
+      "T1113": ["9"],
+      "T1086": ["2", "7"],
+      "T1023": ["4"],
+      "T1027": ["8", "4"],
+      "T1125": ["4", "9"],
+      "T1102": ["4"],
+      "T1043": ["4"],
+      "T1105": ["2", "9"],
+      "T1064": ["4"],
+      "T1060": ["2", "4"],
+      "T1497": ["2"],
+      "T1170": ["2"]
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+      "3": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+      "5": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html",
+      "4": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+      "7": "http://blog.morphisec.com/fin7-attacks-restaurant-industry",
+      "6": "https://www.cyberscoop.com/fin7-dde-morphisec-fileless-malware/",
+      "9": "https://www.justice.gov/opa/press-release/file/1084361/download",
+      "8": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html"
+    },
+    "Software": {
+      "S0030": {
+        "Referrence": ["1", "4", "9"],
+        "techniques": ["T1059", "T1043", "T1136", "T1003", "T1094", "T1024", "T1030", "T1114", "T1107", "T1056", "T1027", "T1057", "T1055", "T1012", "T1060", "T1219", "T1076", "T1113", "T1071", "T1032"]
+      },
+      "S0151": {
+        "Referrence": ["2", "4"],
+        "techniques": ["T1107", "T1086", "T1057", "T1113", "T1082", "T1047"]
+      },
+      "S0145": {
+        "Referrence": ["1"],
+        "techniques": ["T1096", "T1086", "T1012", "T1060", "T1105", "T1071"]
+      },
+      "S0146": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1071"]
+      }
+    }
+  }
+}, {
+  "FIN10": {
+    "Software": {
+      "S0363": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1015", "T1087", "T1217", "T1088", "T1115", "T1059", "T1043", "T1136", "T1003", "T1081", "T1002", "T1175", "T1038", "T1482", "T1114", "T1106", "T1048", "T1041", "T1068", "T1210", "T1083", "T1484", "T1179", "T1056", "T1208", "T1171", "T1031", "T1046", "T1135", "T1040", "T1027", "T1075", "T1097", "T1034", "T1086", "T1145", "T1057", "T1055", "T1060", "T1105", "T1021", "T1053", "T1113", "T1064", "T1063", "T1101", "T1035", "T1023", "T1178", "T1071", "T1032", "T1082", "T1016", "T1049", "T1099", "T1127", "T1125", "T1102", "T1047"]
+      }
+    },
+    "Reference": {
+      "1": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin10.pdf",
+      "2": "https://github.com/PowerShellEmpire/Empire"
+    },
+    "Techniques Used": {
+      "T1086": ["1", "2"],
+      "T1105": ["1"],
+      "T1053": ["1", "2"],
+      "T1064": ["1"],
+      "T1078": ["1"],
+      "T1060": ["1", "2"],
+      "T1033": ["1"],
+      "T1107": ["1"],
+      "T1076": ["1"]
+    }
+  }
+}, {
+  "Equation": {
+    "Techniques Used": {
+      "T1109": ["1"],
+      "T1120": ["1"],
+      "T1480": ["2", "1"]
+    },
+    "Reference": {
+      "1": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf",
+      "2": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134940/kaspersky-lab-gauss.pdf"
+    },
+    "Software": {}
+  }
+}, {
+  "FIN6": {
+    "Software": {
+      "S0154": {
+        "Referrence": ["2"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0372": {
+        "Referrence": ["2"],
+        "techniques": ["T1486", "T1107", "T1105"]
+      },
+      "S0005": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0029": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "1": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf",
+      "2": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html"
+    },
+    "Techniques Used": {
+      "T1046": ["1"],
+      "T1018": ["1"],
+      "T1071": ["1"],
+      "T1068": ["1"],
+      "T1069": ["2"],
+      "T1053": ["1"],
+      "T1074": ["1"],
+      "T1064": ["1", "2"],
+      "T1003": ["1", "2"],
+      "T1078": ["1", "2"],
+      "T1060": ["1"],
+      "T1035": ["2"],
+      "T1002": ["1"],
+      "T1022": ["1"],
+      "T1032": ["1"],
+      "T1076": ["1", "2"],
+      "T1036": ["2"],
+      "T1086": ["1", "2"],
+      "T1102": ["2"],
+      "T1119": ["1"],
+      "T1087": ["1"]
+    }
+  }
+}, {
+  "FIN5": {
+    "Techniques Used": {
+      "T1018": ["2"],
+      "T1070": ["2"],
+      "T1107": ["2"],
+      "T1133": ["1", "3", "2"],
+      "T1074": ["2"],
+      "T1064": ["2"],
+      "T1003": ["3", "2"],
+      "T1108": ["2"],
+      "T1078": ["1", "3", "2"],
+      "T1119": ["2"]
+    },
+    "Reference": {
+      "1": "https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html",
+      "3": "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+      "2": "https://www.youtube.com/watch?v=fevGZs0EQu8"
+    },
+    "Software": {
+      "S0006": {
+        "Referrence": ["2"],
+        "techniques": ["T1003"]
+      },
+      "S0005": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1003"]
+      },
+      "S0169": {
+        "Referrence": ["3", "2"],
+        "techniques": ["T1022", "T1005", "T1074", "T1036", "T1050"]
+      },
+      "S0195": {
+        "Referrence": ["2"],
+        "techniques": ["T1116", "T1485", "T1107"]
+      },
+      "S0173": {
+        "Referrence": ["2"],
+        "techniques": ["T1090", "T1071"]
+      },
+      "S0029": {
+        "Referrence": ["2"],
+        "techniques": ["T1035", "T1077"]
+      }
+    }
+  }
+}, {
+  "FIN4": {
+    "Software": {},
+    "Reference": {
+      "1": "https://www.fireeye.com/current-threats/threat-intelligence-reports/rpt-fin4.html",
+      "3": "https://www2.fireeye.com/WBNR-14Q4NAMFIN4.html",
+      "2": "https://www.fireeye.com/blog/threat-research/2014/11/fin4_stealing_insid.html"
+    },
+    "Techniques Used": {
+      "T1071": ["1", "3"],
+      "T1056": ["1", "3"],
+      "T1192": ["1", "3"],
+      "T1193": ["1", "3"],
+      "T1114": ["1", "3"],
+      "T1078": ["1", "3"],
+      "T1064": ["1", "3"],
+      "T1188": ["1"],
+      "T1141": ["1", "3"],
+      "T1492": ["1"],
+      "T1204": ["1", "3"]
+    }
+  }
+}, {
+  "Elderwood": {
+    "Techniques Used": {
+      "T1195": ["2"],
+      "T1045": ["2"],
+      "T1192": ["2", "3"],
+      "T1105": ["4"],
+      "T1193": ["2", "3"],
+      "T1189": ["2", "3", "1"],
+      "T1027": ["2"],
+      "T1203": ["2"],
+      "T1204": ["2", "3"]
+    },
+    "Reference": {
+      "1": "http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html",
+      "3": "https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China",
+      "2": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+      "4": "https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3909-99"
+    },
+    "Software": {
+      "S0012": {
+        "Referrence": ["2"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      },
+      "S0211": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1005", "T1008", "T1083", "T1107", "T1057", "T1105", "T1029", "T1082"]
+      },
+      "S0210": {
+        "Referrence": ["2"],
+        "techniques": ["T1116", "T1112", "T1050", "T1105"]
+      },
+      "S0204": {
+        "Referrence": ["2"],
+        "techniques": ["T1043", "T1050", "T1060", "T1105", "T1085"]
+      },
+      "S0205": {
+        "Referrence": ["2"],
+        "techniques": ["T1043", "T1094", "T1112", "T1050", "T1082", "T1016"]
+      },
+      "S0206": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1050", "T1055", "T1105"]
+      },
+      "S0207": {
+        "Referrence": ["2"],
+        "techniques": ["T1090", "T1060", "T1105", "T1071"]
+      },
+      "S0203": {
+        "Referrence": ["2"],
+        "techniques": ["T1134", "T1024", "T1005", "T1129", "T1048", "T1083", "T1107", "T1070", "T1112", "T1050", "T1027", "T1057", "T1012", "T1105", "T1113", "T1035", "T1082", "T1016", "T1007"]
+      },
+      "S0208": {
+        "Referrence": ["2"],
+        "techniques": ["T1043", "T1005", "T1083", "T1107", "T1177", "T1057", "T1105", "T1082"]
+      }
+    }
+  }
+}, {
+  "Dust Storm": {
+    "Software": {
+      "S0086": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1002", "T1083", "T1036", "T1050", "T1105", "T1113", "T1071", "T1082", "T1007"]
+      },
+      "S0084": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1059", "T1043", "T1136", "T1094", "T1132", "T1008", "T1036", "T1071", "T1095", "T1082", "T1016", "T1033"]
+      },
+      "S0085": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1043", "T1136", "T1132", "T1008", "T1036", "T1060", "T1023", "T1071", "T1082", "T1007"]
+      },
+      "S0083": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1094", "T1132", "T1083", "T1107", "T1070", "T1036", "T1105", "T1095", "T1082", "T1099"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf"
+    },
+    "Techniques Used": {
+      "T1083": ["1"],
+      "T1027": ["1"],
+      "T1005": ["1"]
+    }
+  }
+}, {
+  "DragonOK": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+      "2": "http://researchcenter.paloaltonetworks.com/2015/04/unit-42-identifies-new-dragonok-backdoor-malware-deployed-against-japanese-targets/"
+    },
+    "Software": {
+      "S0013": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1043", "T1094", "T1140", "T1073", "T1106", "T1083", "T1056", "T1036", "T1031", "T1112", "T1026", "T1135", "T1050", "T1057", "T1012", "T1060", "T1105", "T1113", "T1071", "T1095", "T1049", "T1127", "T1497", "T1102"]
+      },
+      "S0012": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1005", "T1074", "T1056", "T1031", "T1112", "T1050", "T1027", "T1055", "T1060", "T1105", "T1014", "T1032", "T1065"]
+      }
+    }
+  }
+}, {
+  "Dragonfly 2.0": {
+    "Software": {
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0357": {
+        "Referrence": ["1", "4", "6"],
+        "techniques": ["T1003", "T1208", "T1171", "T1040", "T1035", "T1047"]
+      },
+      "S0029": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0075": {
+        "Referrence": ["1"],
+        "techniques": ["T1214", "T1112", "T1012"]
+      },
+      "S0108": {
+        "Referrence": ["1"],
+        "techniques": ["T1090", "T1089", "T1128", "T1063"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.us-cert.gov/ncas/alerts/TA18-074A",
+      "3": "http://fortune.com/2017/09/06/hack-energy-grid-symantec/",
+      "2": "https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group",
+      "5": "https://tools.kali.org/password-attacks/hydra",
+      "4": "https://www.us-cert.gov/ncas/alerts/TA17-293A",
+      "6": "https://www.coresecurity.com/corelabs-research/open-source-tools/impacket"
+    },
+    "Techniques Used": {
+      "T1078": ["1"],
+      "T1192": ["1"],
+      "T1193": ["1", "4"],
+      "T1098": ["1", "4"],
+      "T1036": ["1", "4"],
+      "T1221": ["1", "4"],
+      "T1033": ["1"],
+      "T1016": ["1"],
+      "T1204": ["1", "4"],
+      "T1136": ["1", "4"],
+      "T1018": ["1"],
+      "T1071": ["1"],
+      "T1070": ["1", "4"],
+      "T1076": ["1", "4"],
+      "T1053": ["1", "4"],
+      "T1074": ["1"],
+      "T1114": ["4"],
+      "T1012": ["1"],
+      "T1110": ["1", "4", "5"],
+      "T1112": ["1"],
+      "T1113": ["1", "2"],
+      "T1059": ["1"],
+      "T1083": ["1"],
+      "T1086": ["1", "2", "4"],
+      "T1087": ["1"],
+      "T1089": ["1", "4"],
+      "T1189": ["1"],
+      "T1135": ["1", "4"],
+      "T1187": ["1", "4"],
+      "T1133": ["1", "4"],
+      "T1100": ["1", "4"],
+      "T1107": ["1", "4"],
+      "T1069": ["1"],
+      "T1105": ["1", "4"],
+      "T1002": ["1"],
+      "T1003": ["1", "4", "6"],
+      "T1060": ["1"],
+      "T1005": ["1"],
+      "T1064": ["1", "4"],
+      "T1023": ["1"],
+      "T1043": ["1", "4"]
+    }
+  }
+}, {
+  "Dragonfly": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+      "3": "http://fortune.com/2017/09/06/hack-energy-grid-symantec/",
+      "2": "https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group"
+    },
+    "Software": {
+      "S0094": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1074", "T1057", "T1060", "T1105", "T1113", "T1045"]
+      },
+      "S0093": {
+        "Referrence": ["1"],
+        "techniques": ["T1003", "T1022", "T1001", "T1114", "T1083", "T1107", "T1057", "T1055", "T1060", "T1082", "T1016", "T1033"]
+      }
+    }
+  }
+}, {
+  "Deep Panda": {
+    "Software": {
+      "S0142": {
+        "Referrence": ["7"],
+        "techniques": ["T1059", "T1083", "T1112", "T1050", "T1027", "T1057", "T1085", "T1063", "T1082"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0021": {
+        "Referrence": ["2"],
+        "techniques": ["T1123", "T1059", "T1043", "T1094", "T1024", "T1008", "T1083", "T1107", "T1056", "T1057", "T1055", "T1012", "T1117", "T1113", "T1095", "T1082", "T1033", "T1099", "T1125"]
+      },
+      "S0057": {
+        "Referrence": ["1"],
+        "techniques": ["T1057", "T1063", "T1007"]
+      },
+      "S0074": {
+        "Referrence": ["2"],
+        "techniques": ["T1088", "T1059", "T1024", "T1073", "T1107", "T1050", "T1027", "T1060", "T1105", "T1085", "T1071"]
+      },
+      "S0097": {
+        "Referrence": ["1"],
+        "techniques": ["T1018"]
+      },
+      "S0080": {
+        "Referrence": ["4"],
+        "techniques": ["T1059", "T1043", "T1003", "T1060", "T1105"]
+      }
+    },
+    "Reference": {
+      "1": "https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/",
+      "3": "https://www.emc.com/collateral/white-papers/h12756-wp-shell-crew.pdf",
+      "2": "https://www.threatconnect.com/the-anthem-hack-all-roads-lead-to-china/",
+      "5": "https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts/",
+      "4": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-black-vine-cyberespionage-group.pdf",
+      "7": "https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar",
+      "6": "http://www.crowdstrike.com/blog/mo-shells-mo-problems-deep-panda-web-shells/"
+    },
+    "Techniques Used": {
+      "T1018": ["1"],
+      "T1057": ["1"],
+      "T1100": ["6"],
+      "T1086": ["1"],
+      "T1047": ["1"],
+      "T1064": ["1"],
+      "T1066": ["4"],
+      "T1117": ["3"],
+      "T1015": ["3"],
+      "T1077": ["1"]
+    }
+  }
+}, {
+  "Darkhotel": {
+    "Techniques Used": {
+      "T1091": ["1"],
+      "T1082": ["2"],
+      "T1057": ["2"],
+      "T1056": ["1"],
+      "T1193": ["2"],
+      "T1064": ["2"],
+      "T1116": ["1", "2"],
+      "T1027": ["2"],
+      "T1060": ["1"],
+      "T1080": ["1"],
+      "T1063": ["2"],
+      "T1189": ["1"],
+      "T1023": ["2"],
+      "T1140": ["2"],
+      "T1016": ["2"],
+      "T1204": ["2"]
+    },
+    "Reference": {
+      "1": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf",
+      "2": "https://securelist.com/darkhotels-attacks-in-2015/71713/"
+    },
+    "Software": {}
+  }
+}, {
+  "Dark Caracal": {
+    "Software": {
+      "S0235": {
+        "Referrence": ["1"],
+        "techniques": ["T1083", "T1159", "T1060", "T1113"]
+      },
+      "S0234": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1059", "T1056", "T1093", "T1113", "T1125"]
+      },
+      "S0182": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1009", "T1067", "T1088", "T1140", "T1038", "T1073", "T1083", "T1179", "T1070", "T1036", "T1050", "T1027", "T1057", "T1055", "T1012", "T1060", "T1113", "T1063", "T1045", "T1082", "T1497"]
+      }
+    },
+    "Reference": {
+      "1": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf"
+    },
+    "Techniques Used": {
+      "T1194": ["1"],
+      "T1083": ["1"],
+      "T1071": ["1"],
+      "T1045": ["1"],
+      "T1064": ["1"],
+      "T1060": ["1"],
+      "T1005": ["1"],
+      "T1223": ["1"],
+      "T1189": ["1"],
+      "T1027": ["1"],
+      "T1113": ["1"],
+      "T1204": ["1"]
+    }
+  }
+}, {
+  "DarkHydrus": {
+    "Techniques Used": {
+      "T1187": ["3"],
+      "T1221": ["3"],
+      "T1086": ["1", "2"],
+      "T1204": ["1", "2"],
+      "T1193": ["1", "3", "2"]
+    },
+    "Reference": {
+      "1": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+      "3": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/",
+      "2": "https://pan-unit42.github.io/playbook_viewer/",
+      "4": "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/"
+    },
+    "Software": {
+      "S0154": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T122", "T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0270": {
+        "Referrence": ["1", "4"],
+        "techniques": ["T1059", "T1094", "T1001", "T1140", "T1027", "T1086", "T1057", "T1060", "T1117", "T1105", "T1113", "T1064", "T1063", "T1023", "T1082", "T1016", "T1033", "T1497", "T1102", "T1047"]
+      },
+      "S0002": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      }
+    }
+  }
+}, {
+  "CopyKittens": {
+    "Software": {
+      "S0154": {
+        "Referrence": [],
+        "techniques": []
+      },
+      "S0164": {
+        "Referrence": [],
+        "techniques": []
+      },
+      "S0363": {
+        "Referrence": [],
+        "techniques": []
+      }
+    },
+    "Reference": {
+      "1": "http://www.clearskysec.com/copykitten-jpost/",
+      "3": "https://s3-eu-west-1.amazonaws.com/minervaresearchpublic/CopyKittens/CopyKittens.pdf",
+      "2": "http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf"
+    },
+    "Techniques Used": {
+      "T1002": [],
+      "T1116": [],
+      "T1086": [],
+      "T1022": [],
+      "T1085": []
+    }
+  }
+}, {
+  "Cobalt Group": {
+    "Techniques Used": {
+      "T1191": ["1", "9", "1"],
+      "T1192": ["1"],
+      "T1193": ["1", "2", "3", "4", "5", "6", "1", "1"],
+      "T1027": ["1", "9"],
+      "T1037": ["9"],
+      "T1220": ["1"],
+      "T1032": ["4"],
+      "T1203": ["1", "2", "3", "5", "6", "7", "1", "1"],
+      "T1204": ["1", "1"],
+      "T1055": ["4"],
+      "T1071": ["1", "3", "4"],
+      "T1050": ["4"],
+      "T1053": ["4"],
+      "T1173": ["1"],
+      "T1117": ["1", "9", "1"],
+      "T1059": ["9"],
+      "T1086": ["1", "2", "3", "4", "7", "1"],
+      "T1088": ["4"],
+      "T1219": ["2", "3", "4"],
+      "T1218": ["1"],
+      "T1068": ["4"],
+      "T1076": ["4"],
+      "T1046": ["2", "3", "4"],
+      "T1107": ["1"],
+      "T1105": ["2", "3", "9"],
+      "T1064": ["1", "2", "4", "9", "1", "1"],
+      "T1108": ["4"],
+      "T1060": ["4"],
+      "T1063": ["9"]
+    },
+    "Reference": {
+      "11": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report",
+      "10": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/",
+      "12": "https://blog.trendmicro.com/trendlabs-security-intelligence/cobalt-spam-runs-use-macros-cve-2017-8759-exploit/",
+      "1": "https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html",
+      "3": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf",
+      "2": "https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf",
+      "5": "https://www.proofpoint.com/us/threat-insight/post/microsoft-word-intruder-integrates-cve-2017-0199-utilized-cobalt-group-target",
+      "4": "https://www.group-ib.com/blog/cobalt",
+      "7": "https://www.riskiq.com/blog/labs/cobalt-group-spear-phishing-russian-banks/",
+      "6": "https://www.riskiq.com/blog/labs/cobalt-strike/",
+      "9": "https://blog.morphisec.com/cobalt-gang-2.0",
+      "8": "https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain"
+    },
+    "Software": {
+      "S0154": {
+        "Referrence": ["1", "2", "4", "5", "6", "7", "1", "1"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0284": {
+        "Referrence": ["1"],
+        "techniques": ["T1107", "T1105", "T1063", "T1071", "T1082", "T1016", "T1033"]
+      },
+      "S0002": {
+        "Referrence": ["2", "3", "4"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["2", "4"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0195": {
+        "Referrence": ["3"],
+        "techniques": ["T1116", "T1485", "T1107"]
+      }
+    }
+  }
+}, {
+  "Cleaver": {
+    "Software": {
+      "S0004": {
+        "Referrence": ["1"],
+        "techniques": ["T1115", "T1059", "T1089", "T1056", "T1050", "T1060", "T1113", "T1023"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0056": {
+        "Referrence": ["1"],
+        "techniques": ["T1110", "T1003", "T1035", "T1077"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
+      "2": "http://www.secureworks.com/cyber-threat-intelligence/threats/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles/"
+    },
+    "Techniques Used": {
+      "T1345": ["1"],
+      "T1313": ["1"],
+      "T1341": ["2"],
+      "T1003": ["1"],
+      "T1342": ["2"]
+    }
+  }
+}, {
+  "Charming Kitten": {
+    "Techniques Used": {},
+    "Reference": {
+      "1": "http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf"
+    },
+    "Software": {
+      "S0186": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1086", "T1012", "T1060", "T1071", "T1082", "T1033"]
+      }
+    }
+  }
+}, {
+  "Carbanak": {
+    "Software": {
+      "S0030": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1043", "T1136", "T1003", "T1094", "T1024", "T1030", "T1114", "T1107", "T1056", "T1027", "T1057", "T1055", "T1012", "T1060", "T1219", "T1076", "T1113", "T1071", "T1032"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0108": {
+        "Referrence": ["3"],
+        "techniques": ["T1090", "T1089", "T1128", "T1063"]
+      }
+    },
+    "Reference": {
+      "1": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf",
+      "3": "http://www.group-ib.com/files/Anunak_APT_against_financial_institutions.pdf",
+      "2": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+      "5": "https://www.fox-it.com/en/about-fox-it/corporate/news/anunak-aka-carbanak-update/",
+      "4": "https://blogs.forcepoint.com/security-labs/carbanak-group-uses-google-malware-command-and-control",
+      "6": "https://www.crowdstrike.com/blog/state-criminal-address/"
+    },
+    "Techniques Used": {
+      "T1102": ["4"],
+      "T1078": ["1"],
+      "T1050": ["1"],
+      "T1085": ["1"],
+      "T1089": ["3"],
+      "T1036": ["1"],
+      "T1219": ["3"]
+    }
+  }
+}, {
+  "BRONZE BUTLER": {
+    "Techniques Used": {
+      "T1097": ["2"],
+      "T1193": ["3"],
+      "T1036": ["2"],
+      "T1032": ["2"],
+      "T1203": ["3"],
+      "T1204": ["3"],
+      "T1039": ["2"],
+      "T1018": ["2"],
+      "T1071": ["2"],
+      "T1132": ["2"],
+      "T1053": ["2"],
+      "T1059": ["2"],
+      "T1113": ["2"],
+      "T1083": ["2"],
+      "T1086": ["2"],
+      "T1087": ["2"],
+      "T1124": ["2"],
+      "T1088": ["2"],
+      "T1189": ["3"],
+      "T1024": ["2"],
+      "T1140": ["2"],
+      "T1102": ["2"],
+      "T1009": ["2"],
+      "T1107": ["2"],
+      "T1105": ["2"],
+      "T1002": ["2"],
+      "T1003": ["2"],
+      "T1060": ["2"],
+      "T1022": ["2"],
+      "T1005": ["2"],
+      "T1064": ["2"]
+    },
+    "Reference": {
+      "1": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
+      "3": "https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan",
+      "2": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses"
+    },
+    "Software": {
+      "S0187": {
+        "Referrence": ["1", "3"],
+        "techniques": ["T1116", "T1059", "T1003", "T1002", "T1132", "T1022", "T1001", "T1066", "T1056", "T1036", "T1027", "T1105", "T1113", "T1045", "T1071", "T1032"]
+      },
+      "S0005": {
+        "Referrence": ["2", "3"],
+        "techniques": ["T1003"]
+      },
+      "S0002": {
+        "Referrence": ["2", "3"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0039": {
+        "Referrence": ["2"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0008": {
+        "Referrence": ["2", "3"],
+        "techniques": ["T1003"]
+      },
+      "S0106": {
+        "Referrence": ["2"],
+        "techniques": ["T1059", "T1083", "T1107", "T1105", "T1082"]
+      },
+      "S0110": {
+        "Referrence": ["2"],
+        "techniques": ["T1053"]
+      },
+      "S0111": {
+        "Referrence": ["2"],
+        "techniques": ["T1053"]
+      }
+    }
+  }
+}, {
+  "BlackOasis": {
+    "Software": {},
+    "Reference": {
+      "1": "https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/",
+      "3": "https://www.cyberscoop.com/middle-eastern-hacking-group-using-finfisher-malware-conduct-international-espionage/",
+      "2": "https://securelist.com/apt-trends-report-q2-2017/79332/"
+    },
+    "Techniques Used": {
+      "T1027": ["1"]
+    }
+  }
+}, {
+  "Axiom": {
+    "Techniques Used": {
+      "T1003": ["1"],
+      "T1001": ["1"],
+      "T1015": ["1"],
+      "T1076": ["1"],
+      "T1190": ["1", "5"]
+    },
+    "Reference": {
+      "1": "http://www.novetta.com/wp-content/uploads/2014/11/Executive_Summary-Final_1.pdf",
+      "3": "https://securelist.com/games-are-over/70991/",
+      "2": "https://securelist.com/winnti-more-than-just-a-game/37029/",
+      "5": "http://blogs.cisco.com/security/talos/threat-spotlight-group-72",
+      "4": "http://www.novetta.com/wp-content/uploads/2015/04/novetta_winntianalysis.pdf"
+    },
+    "Software": {
+      "S0009": {
+        "Referrence": ["1"],
+        "techniques": ["T1090", "T1024"]
+      },
+      "S0021": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1059", "T1043", "T1094", "T1024", "T1008", "T1083", "T1107", "T1056", "T1057", "T1055", "T1012", "T1117", "T1113", "T1095", "T1082", "T1033", "T1099", "T1125"]
+      },
+      "S0203": {
+        "Referrence": ["1"],
+        "techniques": ["T1134", "T1024", "T1005", "T1129", "T1048", "T1083", "T1107", "T1070", "T1112", "T1050", "T1027", "T1057", "T1012", "T1105", "T1113", "T1035", "T1082", "T1016", "T1007"]
+      }
+    }
+  }
+}, {
+  "APT39": {
+    "Software": {
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0005": {
+        "Referrence": ["1"],
+        "techniques": ["T1003"]
+      },
+      "S0073": {
+        "Referrence": ["1"],
+        "techniques": ["T1100"]
+      },
+      "S0029": {
+        "Referrence": ["1"],
+        "techniques": ["T1035", "T1077"]
+      },
+      "S0375": {
+        "Referrence": ["2", "3"],
+        "techniques": ["T1010", "T1115", "T1059", "T1022", "T1140", "T1041", "T1083", "T1056", "T1027", "T1060", "T1053", "T1113", "T1064", "T1071", "T1047", "T1004"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html",
+      "3": "https://securelist.com/chafer-used-remexi-malware/89538/",
+      "2": "https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets"
+    },
+    "Techniques Used": {
+      "T1046": ["1"],
+      "T1090": ["1"],
+      "T1045": ["1"],
+      "T1076": ["1"],
+      "T1053": ["1"],
+      "T1193": ["1"],
+      "T1002": ["1"],
+      "T1003": ["1"],
+      "T1078": ["1"],
+      "T1060": ["1"],
+      "T1016": ["1"],
+      "T1021": ["1"],
+      "T1192": ["1"],
+      "T1023": ["1"],
+      "T1033": ["2"],
+      "T1064": ["1"],
+      "T1100": ["1"],
+      "T1204": ["1"]
+    }
+  }
+}, {
+  "APT38": {
+    "Techniques Used": {
+      "T1057": ["1"],
+      "T1056": ["1"],
+      "T1107": ["1"],
+      "T1105": ["1"],
+      "T1487": ["1"],
+      "T1115": ["1"],
+      "T1013": ["1"],
+      "T1059": ["1"],
+      "T1071": ["1"],
+      "T1112": ["1"],
+      "T1486": ["1"],
+      "T1494": ["1"],
+      "T1189": ["1"],
+      "T1070": ["1"],
+      "T1493": ["1"],
+      "T1492": ["1"],
+      "T1485": ["1"],
+      "T1045": ["1"]
+    },
+    "Reference": {
+      "1": "https://content.fireeye.com/apt/rpt-apt38",
+      "3": "https://securelist.com/lazarus-under-the-hood/77908/",
+      "2": "https://www.us-cert.gov/ncas/alerts/TA17-164A"
+    },
+    "Software": {
+      "S0334": {
+        "Referrence": ["1"],
+        "techniques": ["T1123", "T1115", "T1059", "T1089", "T1056", "T1036", "T1112", "T1057", "T1060", "T1076", "T1105", "T1064", "T1045", "T1071", "T1082", "T1033", "T1125"]
+      },
+      "S0039": {
+        "Referrence": ["1"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0002": {
+        "Referrence": ["1"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      }
+    }
+  }
+}, {
+  "APT33": {
+    "Software": {
+      "S0192": {
+        "Referrence": ["3"],
+        "techniques": ["T1134", "T1087", "T1123", "T1088", "T1136", "T1003", "T1002", "T1114", "T1041", "T1083", "T1070", "T1056", "T1171", "T1079", "T1046", "T1135", "T1086", "T1057", "T1055", "T1060", "T1076", "T1105", "T1113", "T1064", "T1035", "T1071", "T1032", "T1082", "T1016", "T1049", "T1033", "T1501", "T1125", "T1497"]
+      },
+      "S0194": {
+        "Referrence": ["3"],
+        "techniques": ["T1134", "T1087", "T1123", "T1003", "T1214", "T1005", "T1038", "T1482", "T1066", "T1056", "T1208", "T1031", "T1027", "T1034", "T1086", "T1057", "T1055", "T1012", "T1060", "T1053", "T1113", "T1101", "T1047"]
+      },
+      "S0198": {
+        "Referrence": ["1", "2"],
+        "techniques": ["T1116", "T1056", "T1060", "T1113", "T1082"]
+      },
+      "S0199": {
+        "Referrence": ["1", "2", "4"],
+        "techniques": ["T1059", "T1055", "T1060", "T1105", "T1113", "T1082"]
+      },
+      "S0039": {
+        "Referrence": ["4"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0140": {
+        "Referrence": ["4"],
+        "techniques": ["T1088", "T1043", "T1485", "T1486", "T1487", "T1036", "T1112", "T1050", "T1027", "T1012", "T1105", "T1018", "T1053", "T1035", "T1071", "T1082", "T1016", "T1124", "T1078", "T1077"]
+      },
+      "S0378": {
+        "Referrence": ["3", "4"],
+        "techniques": ["T1134", "T1087", "T1119", "T1110", "T1088", "T1090", "T1003", "T1081", "T1002", "T1482", "T1068", "T1210", "T1083", "T1056", "T1171", "T1046", "T1040", "T1075", "T1201", "T1069", "T1055", "T1035", "T1071", "T1082", "T1016", "T1049", "T1007", "T1047", "T1084"]
+      },
+      "S0349": {
+        "Referrence": ["4"],
+        "techniques": ["T1003", "T1081"]
+      },
+      "S0336": {
+        "Referrence": ["2"],
+        "techniques": ["T1123", "T1059", "T1089", "T1056", "T1112", "T1027", "T1060", "T1105", "T1064", "T1032", "T1016", "T1065", "T1125"]
+      },
+      "S0371": {
+        "Referrence": ["3"],
+        "techniques": ["T1043", "T1003", "T1086", "T1060", "T1071", "T1032", "T1084"]
+      },
+      "S0095": {
+        "Referrence": ["4"],
+        "techniques": ["T1043", "T1048"]
+      },
+      "S0002": {
+        "Referrence": ["4"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0129": {
+        "Referrence": ["4"],
+        "techniques": ["T1088", "T1132", "T1083", "T1086"]
+      },
+      "S0363": {
+        "Referrence": ["3", "4"],
+        "techniques": ["T1134", "T1015", "T1087", "T1217", "T1088", "T1115", "T1059", "T1043", "T1136", "T1003", "T1081", "T1002", "T1175", "T1038", "T1482", "T1114", "T1106", "T1048", "T1041", "T1068", "T1210", "T1083", "T1484", "T1179", "T1056", "T1208", "T1171", "T1031", "T1046", "T1135", "T1040", "T1027", "T1075", "T1097", "T1034", "T1086", "T1145", "T1057", "T1055", "T1060", "T1105", "T1021", "T1053", "T1113", "T1064", "T1063", "T1101", "T1035", "T1023", "T1178", "T1071", "T1032", "T1082", "T1016", "T1049", "T1099", "T1127", "T1125", "T1102", "T1047"]
+      },
+      "S0358": {
+        "Referrence": ["3"],
+        "techniques": ["T1114", "T1137"]
+      }
+    },
+    "Reference": {
+      "1": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+      "3": "https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html",
+      "2": "https://www.brighttalk.com/webcast/10703/275683",
+      "4": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage"
+    },
+    "Techniques Used": {
+      "T1071": ["4"],
+      "T1053": ["4"],
+      "T1132": ["3"],
+      "T1043": ["3"],
+      "T1040": ["4"],
+      "T1002": ["4"],
+      "T1003": ["4", "3"],
+      "T1078": ["2", "3"],
+      "T1110": ["3"],
+      "T1060": ["4"],
+      "T1048": ["4"],
+      "T1105": ["4"],
+      "T1192": ["1", "4"],
+      "T1032": ["3"],
+      "T1480": ["3"],
+      "T1065": ["4"],
+      "T1086": ["4"],
+      "T1203": ["4"],
+      "T1204": ["1", "4"],
+      "T1068": ["3"],
+      "T1027": ["3"]
+    }
+  }
+}, {
+  "APT37": {
+    "Techniques Used": {
+      "T1094": ["1"],
+      "T1193": ["1", "3"],
+      "T1033": ["3"],
+      "T1203": ["2", "1", "3"],
+      "T1204": ["1"],
+      "T1055": ["3"],
+      "T1057": ["3"],
+      "T1173": ["2"],
+      "T1116": ["2"],
+      "T1059": ["1", "3"],
+      "T1487": ["1", "3"],
+      "T1082": ["3"],
+      "T1071": ["3"],
+      "T1189": ["2", "1"],
+      "T1027": ["3"],
+      "T1106": ["3"],
+      "T1102": ["1", "3"],
+      "T1043": ["2"],
+      "T1123": ["1"],
+      "T1064": ["3"],
+      "T1003": ["1"],
+      "T1060": ["1", "3"],
+      "T1005": ["1"],
+      "T1105": ["1"]
+    },
+    "Reference": {
+      "1": "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf",
+      "3": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+      "2": "https://securelist.com/operation-daybreak/75100/",
+      "5": "https://securelist.com/lazarus-under-the-hood/77908/",
+      "4": "https://www.us-cert.gov/ncas/alerts/TA17-164A",
+      "7": "https://blog.talosintelligence.com/2018/05/navrat.html",
+      "6": "https://researchcenter.paloaltonetworks.com/2018/10/unit42-nokki-almost-ties-the-knot-with-dogcall-reaper-group-uses-new-malware-to-deploy-rat/"
+    },
+    "Software": {
+      "S0219": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1059", "T1083", "T1057", "T1082", "T1033", "T1007"]
+      },
+      "S0218": {
+        "Referrence": ["1"],
+        "techniques": ["T1105", "T1082", "T1102"]
+      },
+      "S0213": {
+        "Referrence": ["1", "6"],
+        "techniques": ["T1123", "T1056", "T1027", "T1105", "T1113", "T1102"]
+      },
+      "S0212": {
+        "Referrence": ["1"],
+        "techniques": ["T1002", "T1022", "T1083", "T1071"]
+      },
+      "S0217": {
+        "Referrence": ["1"],
+        "techniques": ["T1105", "T1113", "T1082"]
+      },
+      "S0216": {
+        "Referrence": ["1"],
+        "techniques": ["T1189", "T1083", "T1057", "T1113", "T1082", "T1102"]
+      },
+      "S0215": {
+        "Referrence": ["1"],
+        "techniques": ["T1189", "T1105", "T1082", "T1102"]
+      },
+      "S0214": {
+        "Referrence": ["1"],
+        "techniques": ["T1105", "T1082", "T1033"]
+      },
+      "S0355": {
+        "Referrence": ["6"],
+        "techniques": ["T1140", "T1027", "T1057", "T1060", "T1071", "T1082"]
+      },
+      "S0240": {
+        "Referrence": ["3"],
+        "techniques": ["T1003", "T1041", "T1056", "T1057", "T1012", "T1105", "T1113", "T1063", "T1071", "T1082", "T1497", "T1102"]
+      },
+      "S0247": {
+        "Referrence": ["7"],
+        "techniques": ["T1059", "T1074", "T1056", "T1057", "T1055", "T1060", "T1105", "T1064", "T1071", "T1082"]
+      }
+    }
+  }
+}, {
+  "APT32": {
+    "Software": {
+      "S0352": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1022", "T1107", "T1158", "T1159", "T1160", "T1027", "T1105", "T1064", "T1082"]
+      },
+      "S0002": {
+        "Referrence": ["1", "6", "4"],
+        "techniques": ["T1098", "T1003", "T1081", "T1207", "T1075", "T1097", "T1145", "T1101", "T1178"]
+      },
+      "S0039": {
+        "Referrence": ["4"],
+        "techniques": ["T1087", "T1136", "T1126", "T1135", "T1201", "T1069", "T1018", "T1035", "T1049", "T1007", "T1124", "T1077"]
+      },
+      "S0154": {
+        "Referrence": ["1", "2", "6", "4"],
+        "techniques": ["T1134", "T1197", "T1088", "T1059", "T1043", "T1090", "T1003", "T1094", "T1005", "T1175", "T1106", "T1068", "T1066", "T1056", "T1185", "T1026", "T1046", "T1135", "T1050", "T1075", "T1086", "T1057", "T1093", "T1055", "T1076", "T1021", "T1018", "T1029", "T1113", "T1064", "T1035", "T1071", "T1099", "T1078", "T1077", "T1047", "T1028"]
+      },
+      "S0155": {
+        "Referrence": ["1"],
+        "techniques": ["T1094", "T1107", "T1012", "T1095", "T1082", "T1033"]
+      },
+      "S0156": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1082", "T1047"]
+      },
+      "S0157": {
+        "Referrence": ["1"],
+        "techniques": ["T1010", "T1083", "T1112", "T1071", "T1082"]
+      },
+      "S0099": {
+        "Referrence": ["4"],
+        "techniques": ["T1016"]
+      },
+      "S0354": {
+        "Referrence": ["6", "4"],
+        "techniques": ["T1059", "T1043", "T1002", "T1132", "T1140", "T1073", "T1083", "T1107", "T1027", "T1055", "T1012", "T1105", "T1064", "T1071", "T1082", "T1016", "T1033"]
+      },
+      "S0108": {
+        "Referrence": ["4"],
+        "techniques": ["T1090", "T1089", "T1128", "T1063"]
+      },
+      "S0158": {
+        "Referrence": ["1"],
+        "techniques": ["T1059", "T1094", "T1112", "T1095"]
+      },
+      "S0100": {
+        "Referrence": ["4"],
+        "techniques": ["T1016"]
+      }
+    },
+    "Reference": {
+      "11": "https://twitter.com/ItsReallyNick/status/944321013084573697",
+      "10": "https://github.com/danielbohannon/Invoke-Obfuscation",
+      "12": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/",
+      "1": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+      "3": "https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/",
+      "2": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/",
+      "5": "https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/",
+      "4": "https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf",
+      "7": "https://github.com/rsmudge/Malleable-C2-Profiles/blob/master/normal/safebrowsing.profile",
+      "6": "https://www.cybereason.com/blog/operation-cobalt-kitty-apt",
+      "9": "https://twitter.com/ItsReallyNick/status/945681177108762624",
+      "8": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/"
+    },
+    "Techniques Used": {
+      "T1117": ["1", "4", "5"],
+      "T1094": ["1", "7", "4", "5", "8"],
+      "T1097": ["4"],
+      "T1096": ["4"],
+      "T1099": ["1", "5", "8"],
+      "T1222": ["8"],
+      "T1036": ["1", "9", "4"],
+      "T1035": ["5"],
+      "T1033": ["3", "4"],
+      "T1112": ["5"],
+      "T1031": ["4"],
+      "T1216": ["1"],
+      "T1158": ["8"],
+      "T1203": ["5"],
+      "T1192": ["3", "6"],
+      "T1073": ["6", "4", "5"],
+      "T1137": ["6", "4"],
+      "T1071": ["2", "6", "4", "5"],
+      "T1070": ["1"],
+      "T1077": ["4"],
+      "T1050": ["3", "4", "5"],
+      "T1075": ["4"],
+      "T1100": ["2"],
+      "T1204": ["3", "6", "5"],
+      "T1170": ["6", "4"],
+      "T1012": ["5"],
+      "T1059": ["4"],
+      "T1017": ["1"],
+      "T1016": ["4"],
+      "T1078": ["1"],
+      "T1082": ["3", "5", "8"],
+      "T1083": ["5"],
+      "T1086": ["1", "6", "4"],
+      "T1087": ["4"],
+      "T1018": ["4"],
+      "T1189": ["3"],
+      "T1045": ["8"],
+      "T1027": ["1", "1", "3", "6", "4", "5", "8"],
+      "T1053": ["1", "6", "4", "5"],
+      "T1107": ["8"],
+      "T1046": ["4"],
+      "T1047": ["4"],
+      "T1009": ["3", "5"],
+      "T1068": ["1"],
+      "T1043": ["6", "4"],
+      "T1105": ["2", "6"],
+      "T1041": ["5"],
+      "T1002": ["5"],
+      "T1003": ["6", "4"],
+      "T1060": ["6", "4", "5"],
+      "T1022": ["5", "8"],
+      "T1049": ["4"],
+      "T1193": ["3", "6", "4", "5"],
+      "T1064": ["6", "4"],
+      "T1065": ["5"]
+    }
+  }
+}]
