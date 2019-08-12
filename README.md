@@ -8,3 +8,8 @@ A dataset containing APT group related articles and MITRE ATT&amp;CK technique d
 ## tech_refer.json
 * A summary of threat-related artilces. Each url (artilces) can be found in APTgroupMitre.json and related to several techniques that can be found in MitreEnterprise.json
 ## _id.txt
+* Get each url in tech_refer an id.
+## references
+* This fold contains artilces(urls) described in _id.txt, and each the file name exactly means the id described in _id.txt.The file in references containing html file and Users can use the script deal_raw_file.py to make a classification.
+## references_processed
+* Some preprocessed file are listed for users.
