@@ -10,6 +10,6 @@ A dataset containing APT group related articles and MITRE ATT&amp;CK technique d
 ## _id.txt
 * Get each url in tech_refer an id.
 ## references
-* This fold contains artilces(urls) described in _id.txt, and each the file name exactly means the id described in _id.txt.The file in references containing html file and Users can use the script deal_raw_file.py to make a classification.
+* This fold contains artilces(urls) described in _id.txt, and each the file name exactly means the id described in _id.txt.The file in references containing html file and Users can use the script **deal_raw_file.py** to make a classification. Due to the limitation of Github, we would not upload all files. Users should download the files using script **get_file.py**.
 ## references_processed
 * Some preprocessed file are listed for users.
